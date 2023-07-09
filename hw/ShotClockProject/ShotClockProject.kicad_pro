@@ -321,7 +321,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "/home/mats/Documents/KiCad/Projects/Shotclock/ShotClockProject/output/pdf/ShotclockMainBoard_PDF_PLOT_BORDERS_1.pdf",
+    "plot_directory": "output/pdf/Shotclock_Mainboard_Export3",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
