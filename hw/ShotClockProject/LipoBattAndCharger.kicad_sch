@@ -2943,6 +2943,33 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 73.66 124.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c798f03a-4f9a-46f8-8026-d9b2b22a7bf3)
+    (property "Reference" "J10" (at 72.39 115.57 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x03_Pin" (at 72.39 118.11 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 73.66 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 73.66 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 70710f95-076e-4ec7-a2bb-560d34e836bd))
+    (pin "2" (uuid 384ba7ee-1c22-4335-aa41-03799d869e75))
+    (pin "3" (uuid 838e4130-c1f7-4cd4-935d-a0502557e58a))
+    (instances
+      (project "ShotClockProject"
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
+          (reference "J10") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 196.85 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cee64436-7604-457b-bc5a-77c8250fa476)
