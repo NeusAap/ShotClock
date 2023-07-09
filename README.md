@@ -1,2 +1,2 @@
-# shotclock
+# ShotClock
  Shotclock hardware & software
