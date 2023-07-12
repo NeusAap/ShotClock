@@ -3570,7 +3570,7 @@
           (reference "C9") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C23") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3598,7 +3598,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3626,7 +3626,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3654,7 +3654,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3683,7 +3683,7 @@
           (reference "C2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C7") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3721,7 +3721,7 @@
   (symbol (lib_id "power:+BATT") (at 27.94 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18fbe904-3751-4fdb-96be-417c164fa003)
-    (property "Reference" "#PWR064" (at 27.94 125.73 0)
+    (property "Reference" "#PWR020" (at 27.94 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 27.94 116.84 0)
@@ -3737,7 +3737,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3766,7 +3766,7 @@
           (reference "C9") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C24") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -3775,7 +3775,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 252.73 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c6ccd8c-1637-4ef1-a757-93663adbea99)
-    (property "Reference" "#FLG06" (at 250.825 91.44 0)
+    (property "Reference" "#FLG04" (at 250.825 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 248.92 91.44 90)
@@ -3791,7 +3791,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#FLG06") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "#FLG06") (unit 1)
@@ -3826,7 +3826,7 @@
           (reference "C8") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C11") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -3854,7 +3854,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3882,7 +3882,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3939,7 +3939,7 @@
           (reference "C5") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3967,7 +3967,7 @@
           (reference "TP4") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "TP5") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -4023,7 +4023,7 @@
           (reference "#PWR016") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4052,7 +4052,7 @@
           (reference "C7") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C10") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4089,7 +4089,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 236.22 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3746d308-a9fa-42ac-a735-fa549fad26fb)
-    (property "Reference" "#FLG01" (at 234.315 48.26 0)
+    (property "Reference" "#FLG03" (at 234.315 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 232.41 48.26 90)
@@ -4105,7 +4105,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "#FLG04") (unit 1)
@@ -4137,7 +4137,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "R25") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4166,7 +4166,7 @@
           (reference "C10") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C1") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4195,7 +4195,7 @@
           (reference "C3") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4254,7 +4254,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -4282,7 +4282,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4310,7 +4310,7 @@
           (reference "TP3") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "TP3") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -4339,7 +4339,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "R21") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4367,7 +4367,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4395,7 +4395,7 @@
           (reference "TP4") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "TP12") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -4465,7 +4465,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "R22") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4495,7 +4495,7 @@
           (reference "SW1") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -4523,7 +4523,7 @@
           (reference "TP2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "TP2") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -4558,7 +4558,7 @@
   (symbol (lib_id "Device:LED") (at 80.01 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a8438a9-a958-4f35-9bfd-c1955248c693)
-    (property "Reference" "D3" (at 78.74 77.47 0)
+    (property "Reference" "D1" (at 78.74 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Orange LED" (at 78.74 80.01 0)
@@ -4575,7 +4575,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -4603,7 +4603,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4723,7 +4723,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "R2") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4752,7 +4752,7 @@
           (reference "C1") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C8") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4810,7 +4810,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4819,7 +4819,7 @@
   (symbol (lib_id "Connector:Conn_ST_STDC14") (at 265.43 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96bc2678-c71f-4c61-8cb7-29583cce9b90)
-    (property "Reference" "J10" (at 246.38 149.86 0)
+    (property "Reference" "J2" (at 246.38 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_ST_STDC14" (at 246.38 147.32 0)
@@ -4848,7 +4848,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "J10") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -4876,7 +4876,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4904,7 +4904,7 @@
           (reference "#PWR010") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4933,7 +4933,7 @@
           (reference "C4") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -4961,7 +4961,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4970,7 +4970,7 @@
   (symbol (lib_id "Diode:1N4148") (at 87.63 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8b07097-f5e7-41a3-953f-6354d77adda1)
-    (property "Reference" "D4" (at 90.17 101.6 90)
+    (property "Reference" "D2" (at 90.17 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4148" (at 90.17 104.14 90)
@@ -4993,7 +4993,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "D4") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -5021,7 +5021,7 @@
           (reference "#PWR07") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -5030,7 +5030,7 @@
   (symbol (lib_id "Regulator_Linear:LD39015M33R") (at 45.72 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid baa75505-eed2-4d77-bb37-d3438b556f88)
-    (property "Reference" "U4" (at 45.72 116.84 0)
+    (property "Reference" "U2" (at 45.72 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD39015M33R" (at 45.72 119.38 0)
@@ -5050,7 +5050,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -5078,7 +5078,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -5115,7 +5115,7 @@
   (symbol (lib_id "Device:Q_NPN_BCE") (at 85.09 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8d28e4d-5ff2-4cc1-8875-8c9841a75eac)
-    (property "Reference" "Q2" (at 80.01 111.76 0)
+    (property "Reference" "Q1" (at 80.01 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NPN_BCE" (at 80.01 114.3 0)
@@ -5133,7 +5133,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -5162,7 +5162,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "R27") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5191,7 +5191,7 @@
           (reference "C6") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C9") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -5220,7 +5220,7 @@
           (reference "C11") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C3") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5249,7 +5249,7 @@
           (reference "C9") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C4") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -5277,7 +5277,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -5305,7 +5305,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5333,7 +5333,7 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -5361,7 +5361,7 @@
           (reference "TP2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "TP11") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -5370,7 +5370,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 144.78 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e456af02-2a73-4a4f-984f-61712ccc0b8c)
-    (property "Reference" "#FLG07" (at 144.78 36.195 0)
+    (property "Reference" "#FLG02" (at 144.78 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 144.78 33.02 0)
@@ -5386,7 +5386,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#FLG07") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "#FLG04") (unit 1)
@@ -5421,7 +5421,7 @@
           (reference "R1") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5450,7 +5450,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "R26") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -5478,7 +5478,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5506,7 +5506,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5534,7 +5534,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -5562,7 +5562,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5590,7 +5590,7 @@
           (reference "TP7") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "TP7") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )

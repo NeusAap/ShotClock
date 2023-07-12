@@ -1682,7 +1682,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -1713,7 +1713,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -1744,7 +1744,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -1775,7 +1775,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -1784,7 +1784,7 @@
   (symbol (lib_id "Connector:Conn_01x33_Pin") (at 90.17 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4126d9fa-908b-4512-aa9c-54d24d47a313)
-    (property "Reference" "J4" (at 92.71 44.45 0)
+    (property "Reference" "J7" (at 92.71 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x33_Pin" (at 92.71 46.99 0)
@@ -1832,7 +1832,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "J4") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -1841,7 +1841,7 @@
   (symbol (lib_id "Connector:Conn_01x33_Pin") (at 191.77 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7343fde2-9ea4-4f77-b03e-3f42f9e00e33)
-    (property "Reference" "J6" (at 194.31 44.45 0)
+    (property "Reference" "J9" (at 194.31 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x33_Pin" (at 194.31 46.99 0)
@@ -1889,7 +1889,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "J6") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1920,7 +1920,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -1951,7 +1951,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -1982,7 +1982,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -2013,7 +2013,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -2022,7 +2022,7 @@
   (symbol (lib_id "Connector:Conn_01x33_Pin") (at 242.57 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d01561e6-c978-4f3e-8114-772ecbdb174d)
-    (property "Reference" "J7" (at 245.11 44.45 0)
+    (property "Reference" "J10" (at 245.11 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x33_Pin" (at 245.11 46.99 0)
@@ -2070,7 +2070,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "J7") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2079,7 +2079,7 @@
   (symbol (lib_id "Connector:Conn_01x33_Pin") (at 140.97 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eebb5fd3-c031-4d6c-887d-da0dcafa2566)
-    (property "Reference" "J5" (at 143.51 44.45 0)
+    (property "Reference" "J8" (at 143.51 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x33_Pin" (at 143.51 46.99 0)
@@ -2127,7 +2127,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "J5") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
