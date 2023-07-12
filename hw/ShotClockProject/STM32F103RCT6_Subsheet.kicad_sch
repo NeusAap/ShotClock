@@ -4480,7 +4480,7 @@
     (property "Value" "SW_SPDT" (at 73.66 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P" (at 71.12 59.69 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (at 71.12 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 59.69 0)
