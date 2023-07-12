@@ -4187,8 +4187,8 @@
     (property "Datasheet" "~" (at 77.47 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d3b4a275-39ce-400f-b27a-f92acda10c9f))
-    (pin "2" (uuid a08c6d91-4435-4b69-991e-a648d73e1745))
+    (pin "1" (uuid 17dc8cb9-5f06-43b6-99d2-21829f08713c))
+    (pin "2" (uuid aeded091-e45e-4bf3-8140-fd46a426afa1))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4416,23 +4416,23 @@
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 248.92 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A1" (uuid 403afb9c-89ed-40e2-88d6-414126f38e38))
-    (pin "A12" (uuid d5eff064-49f3-4b06-a7d0-e8bcdfa3853a))
-    (pin "A4" (uuid e38b8305-2e40-4564-8665-5768feb60a17))
-    (pin "A5" (uuid beabe6b5-6d6c-4e78-968b-189d9f5afaeb))
-    (pin "A6" (uuid 905379fa-e133-4aab-8c48-e052bb5dc94f))
-    (pin "A7" (uuid 45167ac9-21a2-4321-aa24-6ba7f7a4cfc0))
-    (pin "A8" (uuid 6a63f04c-df12-4af6-ba73-62c53bd8099b))
-    (pin "A9" (uuid acf66532-de48-4adf-8d2e-ef238d82d2f3))
-    (pin "B1" (uuid bca92881-b6c9-4d82-a025-55c12cfa642b))
-    (pin "B12" (uuid c2b52df7-4df8-491b-9960-9fd2507d944e))
-    (pin "B4" (uuid b30a194d-f288-481d-9158-d3c1f6ee0c51))
-    (pin "B5" (uuid e60affc0-4452-40c3-a269-d272055fd26b))
-    (pin "B6" (uuid c7caedaf-35c7-49fa-9388-5c88ddf434f3))
-    (pin "B7" (uuid 59f9020b-7c9b-4c1f-a92a-8be1c722d75a))
-    (pin "B8" (uuid 71106c03-578c-452f-92e5-4b4eb0c45c74))
-    (pin "B9" (uuid 801b99ac-e280-4086-8335-e900f0a8d4fc))
-    (pin "S1" (uuid dab4f6e6-cbf3-4b5d-b251-98b5bdffac53))
+    (pin "A1" (uuid 419b25b2-26fa-434c-b53c-05785358930b))
+    (pin "A12" (uuid 7fceb8a3-cf02-4547-9199-4a27da097d5d))
+    (pin "A4" (uuid a1743b0f-5c0e-4457-94d2-75b091e6d7fc))
+    (pin "A5" (uuid 5e83079a-ef6c-41e4-84ce-144c399012e6))
+    (pin "A6" (uuid 5a013115-33a3-4560-9675-1782c03432c5))
+    (pin "A7" (uuid c7d97f61-2148-496c-8722-32a5df653033))
+    (pin "A8" (uuid 431a87b7-ec92-458f-96a1-34d2b969b86b))
+    (pin "A9" (uuid b15ee319-8556-4656-bf8b-22b59950cf1b))
+    (pin "B1" (uuid dd56a3bb-568f-4461-9565-7197eb72032d))
+    (pin "B12" (uuid ea7522f1-4e4c-4794-8b9c-307c2d815eb6))
+    (pin "B4" (uuid 6ee651f8-feb4-4487-9756-a25612751553))
+    (pin "B5" (uuid 48ee2b98-1e59-4da5-a431-527d07ac55d2))
+    (pin "B6" (uuid c0a05ecb-2bfc-454d-bda0-d0d2c8b5e2a8))
+    (pin "B7" (uuid 3c860d0b-54ec-431c-91e5-cac582bfecc7))
+    (pin "B8" (uuid 0de3bde7-b881-4367-9816-603f38789ebf))
+    (pin "B9" (uuid 9f2fac02-8902-4512-92a3-c164365bf53e))
+    (pin "S1" (uuid 542a9efe-2d08-4e27-bc70-9e93e0c341ed))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
@@ -4925,8 +4925,8 @@
     (property "Datasheet" "~" (at 64.77 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a73e2c08-478f-45f6-8874-6c774fd586ea))
-    (pin "2" (uuid f6a980e1-420d-4f42-a4e0-3e8bcda0ad9e))
+    (pin "1" (uuid d7691628-862a-4ec8-835e-d59810ba22f5))
+    (pin "2" (uuid 10984653-5e61-4e91-a2ad-816577353baa))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -5212,8 +5212,8 @@
     (property "Datasheet" "~" (at 52.07 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c851550-2749-4ef7-b916-05a4ff7ba7dc))
-    (pin "2" (uuid b07ff3ce-920a-4dab-91e2-ea8be580f872))
+    (pin "1" (uuid fcf155ac-50f9-4a31-8e11-8910837f9b93))
+    (pin "2" (uuid 175613c9-1601-4840-8ad4-f5b28ae32754))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
