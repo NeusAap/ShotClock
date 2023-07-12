@@ -1,2 +1,6 @@
 .idea
 hw/ShotClockProject/ShotClockProject-backups/
+.project
+.mxproject
+.cproject
+.settings
