@@ -412,7 +412,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "USB4120-03-C"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
