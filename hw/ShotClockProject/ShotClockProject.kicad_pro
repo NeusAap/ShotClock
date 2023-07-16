@@ -492,7 +492,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "output/pdf/Shotclock_Mainboard_Export3",
+    "plot_directory": "output/pdf/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
