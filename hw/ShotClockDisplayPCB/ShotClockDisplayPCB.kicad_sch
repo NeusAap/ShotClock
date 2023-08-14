@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid baf3f1b3-1588-4756-b7d1-50b7c58bafb0)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 35.56 49.53) (size 43.18 92.71) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid acc83e16-b7da-48bd-ac1b-341a95513ee6)
+    (property "Sheetname" "MainBoardConnectors" (at 35.56 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mainboard_connectors.kicad_sch" (at 35.56 142.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ShotClockDisplayPCB"
+        (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
