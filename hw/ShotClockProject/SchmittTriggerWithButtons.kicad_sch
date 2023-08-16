@@ -602,7 +602,7 @@
           (reference "U3") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -634,7 +634,7 @@
           (reference "C5") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "C22") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -643,7 +643,7 @@
   (symbol (lib_id "Device:R") (at 113.03 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b6983ee-4ac7-4f2c-929f-32e1b0afdbd2)
-    (property "Reference" "R25" (at 118.11 106.68 90)
+    (property "Reference" "R35" (at 118.11 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 115.57 106.68 90)
@@ -660,7 +660,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "R25") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -717,7 +717,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -748,7 +748,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -779,7 +779,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -811,7 +811,7 @@
           (reference "C5") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "C24") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -842,7 +842,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -873,7 +873,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -882,7 +882,7 @@
   (symbol (lib_id "Device:R") (at 113.03 82.55 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b0c048b-e84e-48e2-be9a-5346cb1cb2f8)
-    (property "Reference" "R23" (at 118.11 82.55 90)
+    (property "Reference" "R34" (at 118.11 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 115.57 82.55 90)
@@ -899,7 +899,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "R23") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -930,7 +930,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -961,7 +961,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -993,7 +993,7 @@
           (reference "C5") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "C23") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -1024,7 +1024,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -1055,7 +1055,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -1064,7 +1064,7 @@
   (symbol (lib_id "Device:R") (at 113.03 128.27 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e69ee195-29ee-44ca-be0c-bea04859b3fc)
-    (property "Reference" "R27" (at 118.11 128.27 90)
+    (property "Reference" "R36" (at 118.11 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 115.57 128.27 90)
@@ -1081,7 +1081,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
-          (reference "R27") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )

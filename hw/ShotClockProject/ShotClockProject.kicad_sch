@@ -683,7 +683,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 144.78 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a84cab3-dfe5-48fa-8b99-806e92a522c5)
-    (property "Reference" "TP12" (at 143.51 49.53 0)
+    (property "Reference" "TP3" (at 143.51 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 143.51 52.07 0)
@@ -699,7 +699,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "TP12") (unit 1)
+          (reference "TP3") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/17367eb9-0f4d-4017-b1ca-d50430410a5d"
           (reference "TP8") (unit 1)
@@ -733,7 +733,7 @@
           (reference "#FLG04") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#FLG013") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -742,7 +742,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 144.78 35.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f3f25b5-8aa2-40e6-ac28-783ccda093ad)
-    (property "Reference" "TP2" (at 143.51 30.48 0)
+    (property "Reference" "TP1" (at 143.51 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 143.51 33.02 0)
@@ -758,7 +758,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "TP2") (unit 1)
+          (reference "TP1") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/17367eb9-0f4d-4017-b1ca-d50430410a5d"
           (reference "TP8") (unit 1)
@@ -858,7 +858,7 @@
   (symbol (lib_id "power:+5V") (at 160.02 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 779d6aeb-6d65-4feb-9524-a5a90bf209ba)
-    (property "Reference" "#PWR089" (at 160.02 57.15 0)
+    (property "Reference" "#PWR02" (at 160.02 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 160.02 48.26 0)
@@ -874,7 +874,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "ShotClockDisplayPCB"
@@ -888,7 +888,7 @@
   (symbol (lib_id "Device:R") (at 149.86 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9021ebca-9f95-4bd3-983c-5e15a4fbb294)
-    (property "Reference" "R40" (at 149.86 48.26 90)
+    (property "Reference" "R4" (at 149.86 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 149.86 50.8 90)
@@ -905,7 +905,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "R40") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -973,7 +973,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 59.69 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdef09b8-389f-4ef6-93f5-b41fff0b4726)
-    (property "Reference" "TP1" (at 58.42 45.72 0)
+    (property "Reference" "TP2" (at 58.42 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 58.42 48.26 0)
@@ -989,7 +989,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "TP1") (unit 1)
+          (reference "TP2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "TP1") (unit 1)
@@ -1001,7 +1001,7 @@
   (symbol (lib_id "Device:R") (at 101.6 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cba99af8-7fc8-453a-ace5-a500860f403f)
-    (property "Reference" "R39" (at 101.6 48.26 90)
+    (property "Reference" "R3" (at 101.6 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 101.6 50.8 90)
@@ -1018,7 +1018,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "R39") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
