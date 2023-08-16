@@ -574,6 +574,58 @@
         )
       )
     )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1199,37 +1251,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 83.82 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 188f8990-0ad8-41f8-8342-f713fe2d1644)
-    (property "Reference" "#PWR02" (at 83.82 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 83.82 50.8 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 83.82 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 83.82 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9218063f-16ac-4951-8172-1de277f4235d))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR061") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 135.89 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d76c4de-9245-4377-81a9-52cf84f7afa4)
@@ -1296,37 +1317,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 160.02 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2a2c12d2-4a53-41c3-b856-5e8a59e2db47)
-    (property "Reference" "#PWR02" (at 160.02 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 160.02 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 160.02 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 160.02 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 04dd63af-99a9-448a-80b2-ad18507638da))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR067") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 160.02 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b13c978-bd6f-47fa-8e81-987455bdbcea)
@@ -1384,6 +1374,39 @@
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
           (reference "#PWR081") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 83.82 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 52691f56-0b4a-40ba-af25-cb3a4560c547)
+    (property "Reference" "#PWR089" (at 83.82 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 83.82 93.98 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 83.82 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 83.82 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f6c5b49c-9d6b-406d-8f38-afeef7dc3002))
+    (instances
+      (project "ShotClockProject"
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+          (reference "#PWR089") (unit 1)
+        )
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
+          (reference "#PWR065") (unit 1)
+        )
+      )
+      (project "ShotClockDisplayPCB"
+        (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/acc83e16-b7da-48bd-ac1b-341a95513ee6"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1598,6 +1621,39 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 160.02 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9f377b63-90fc-44b8-900c-aa329a17a777)
+    (property "Reference" "#PWR089" (at 160.02 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 160.02 93.98 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 160.02 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 160.02 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 791da67f-0d14-44e0-a3bd-b637244df764))
+    (instances
+      (project "ShotClockProject"
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+          (reference "#PWR089") (unit 1)
+        )
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
+          (reference "#PWR067") (unit 1)
+        )
+      )
+      (project "ShotClockDisplayPCB"
+        (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/acc83e16-b7da-48bd-ac1b-341a95513ee6"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "DW254W-22-20-85:DW254W-22-20-85") (at 187.96 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a31f0a1c-5bc6-45ee-be6a-5d55220d6c30)
@@ -1754,37 +1810,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 160.02 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ba3e3f49-7150-4bb6-8d46-6458a1fd8430)
-    (property "Reference" "#PWR02" (at 160.02 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 160.02 50.8 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 160.02 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 160.02 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 95426e37-d720-4cbe-b084-0a9fa987020b))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR063") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:Q_PMOS_SGD") (at 77.47 167.64 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba40130a-3b26-4a64-9112-e77a34c5fc2f)
@@ -1906,32 +1931,34 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 83.82 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d58ec43d-2d7e-4e0c-bf79-753275c76e9f)
-    (property "Reference" "#PWR02" (at 83.82 102.87 0)
+  (symbol (lib_id "power:+5V") (at 160.02 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e10f21b9-9fd2-499d-88ca-9963f5894c5c)
+    (property "Reference" "#PWR089" (at 160.02 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 83.82 95.25 0)
+    (property "Value" "+5V" (at 160.02 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 83.82 99.06 0)
+    (property "Footprint" "" (at 160.02 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 83.82 99.06 0)
+    (property "Datasheet" "" (at 160.02 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 188b9308-90fa-4cf5-adc8-d171e06df057))
+    (pin "1" (uuid 24c3ce60-b3b0-4584-8030-0eb60144a8d6))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR063") (unit 1)
+        )
+      )
+      (project "ShotClockDisplayPCB"
+        (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/acc83e16-b7da-48bd-ac1b-341a95513ee6"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1996,6 +2023,39 @@
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
           (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 83.82 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ed53d5e5-ba91-4b18-be57-edfceea033d7)
+    (property "Reference" "#PWR089" (at 83.82 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 83.82 49.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 83.82 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 83.82 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3176ecc-7f7f-4554-ad64-f1c2f89877e8))
+    (instances
+      (project "ShotClockProject"
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+          (reference "#PWR089") (unit 1)
+        )
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/dbe9281d-d28a-4966-832c-4ef9ca7a9777"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+      (project "ShotClockDisplayPCB"
+        (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/acc83e16-b7da-48bd-ac1b-341a95513ee6"
+          (reference "#PWR01") (unit 1)
         )
       )
     )

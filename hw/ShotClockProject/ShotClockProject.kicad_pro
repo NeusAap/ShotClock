@@ -519,6 +519,10 @@
       "Voltage regulator 3v3"
     ],
     [
+      "83d8d19c-1376-4688-800d-ae057ad1fe11",
+      "Voltage regulator 5V"
+    ],
+    [
       "1ce26b90-d7f5-4886-998a-a021d351eec6",
       "Schmitt trigger and buttons"
     ],
