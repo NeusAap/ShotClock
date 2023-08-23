@@ -137,7 +137,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 01073728-3e5e-4dfc-a72b-a738087d1dc8)
-    (at 54.965 80.13)
+    (at 109.575 98.545)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -199,7 +199,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 02e4deb7-a566-4d14-b3c1-8d2016279b69)
-    (at 54.965 71.23)
+    (at 109.575 89.645)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -261,7 +261,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 084a9ccb-dcf9-4b12-a1db-1d676d45b06b)
-    (at 54.965 84.58)
+    (at 109.575 102.995)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -323,7 +323,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 0940a8f6-ef3d-470b-9343-d4c2a41949b6)
-    (at 65.615 89.79)
+    (at 120.225 108.205)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -377,7 +377,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 0a9ddbce-8bd4-4375-ba29-384d77e50604)
-    (at 56.885 95.76)
+    (at 111.495 114.175)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -431,7 +431,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 11d609df-f22b-4006-851f-975b4ae2e211)
-    (at 53.975 89.79)
+    (at 108.585 108.205)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -485,7 +485,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 1323b27e-5c37-4922-8b6d-7ea806df845a)
-    (at 65.615 87.8)
+    (at 120.225 106.215)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -539,7 +539,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 2534c3bf-b507-4935-a7d1-eba271f5a0ad)
-    (at 62.705 89.79)
+    (at 117.315 108.205)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -593,7 +593,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 27e1fc90-2430-441e-90a0-5654790b1d19)
-    (at 59.795 97.75)
+    (at 114.405 116.165)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -647,7 +647,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 27f6dd34-8c91-491f-9b92-ff788ad85e6c)
-    (at 62.705 97.75)
+    (at 117.315 116.165)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -701,7 +701,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 29227225-bf6e-46f6-8550-a951098570a9)
-    (at 62.705 95.76)
+    (at 117.315 114.175)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -755,7 +755,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 2ade9253-c639-4784-ab7d-69c7b499de4a)
-    (at 59.795 87.8)
+    (at 114.405 106.215)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -809,7 +809,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 325a047f-f343-4557-95fb-ae98ad4b8e21)
-    (at 62.705 87.8)
+    (at 117.315 106.215)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -863,7 +863,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 37499154-7b51-4c77-8f0a-b09cde7ff61b)
-    (at 69.635 71.23)
+    (at 124.245 89.645)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -925,7 +925,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 37deeffd-d77e-428d-ae77-0acb7bce32d2)
-    (at 56.885 91.78)
+    (at 111.495 110.195)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1103,7 +1103,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 3d18edca-a6a8-4940-9e52-c83dd351b698)
-    (at 59.855 84.58)
+    (at 114.465 102.995)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1227,7 +1227,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 3e16148a-7052-4606-9721-ff905b17bc99)
-    (at 53.975 93.77)
+    (at 108.585 112.185)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1281,7 +1281,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 4b6f97e5-c7f8-4842-803b-725d89b78e6d)
-    (at 62.705 93.77)
+    (at 117.315 112.185)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1405,7 +1405,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 4cc9a5c0-aadd-46c9-8e38-8169f66f7c71)
-    (at 53.975 91.78)
+    (at 108.585 110.195)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1459,7 +1459,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 50300c1d-5d06-466b-b5cf-2c5df9ef282a)
-    (at 59.855 80.13)
+    (at 114.465 98.545)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1521,7 +1521,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 5477022f-c1ca-4176-94df-9e459d47b14c)
-    (at 56.885 87.8)
+    (at 111.495 106.215)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1575,7 +1575,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 687db5cd-942e-4036-ada9-47bf99326b4e)
-    (at 64.745 84.58)
+    (at 119.355 102.995)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1691,7 +1691,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 7661afd2-3bb1-4246-a06a-f1f33634903f)
-    (at 53.975 97.75)
+    (at 108.585 116.165)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1745,7 +1745,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 77ca22b0-0220-4092-a473-d060baba7f0c)
-    (at 64.745 71.23)
+    (at 119.355 89.645)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1807,7 +1807,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 7b71e941-a5c0-4698-a305-dca3e486510b)
-    (at 53.975 87.8)
+    (at 108.585 106.215)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -1915,7 +1915,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 835d85ee-668b-48b1-8841-28a0a5e86bd3)
-    (at 62.705 99.74)
+    (at 117.315 118.155)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2051,7 +2051,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 888626ee-8fee-47a1-bb35-bc25b00ae3bf)
-    (at 65.615 91.78)
+    (at 120.225 110.195)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2105,7 +2105,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 8e01326c-b91a-44f9-9946-cf9d3d612b4d)
-    (at 69.075 92.71)
+    (at 123.685 111.125)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2159,7 +2159,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 8ecf2db8-b6d3-4a1d-b653-3c523faf8d5c)
-    (at 56.885 89.79)
+    (at 111.495 108.205)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2213,7 +2213,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 9a36b26c-4bdb-4fde-bd8e-072dc58b194b)
-    (at 59.795 95.76)
+    (at 114.405 114.175)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2267,7 +2267,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 9b41aa67-da2a-4b0c-8b7b-e91d740b6576)
-    (at 54.965 75.68)
+    (at 109.575 94.095)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2329,7 +2329,7 @@
 
   (footprint "Package_TO_SOT_SMD:SC-59" (layer "F.Cu")
     (tstamp 9b91124f-c0b0-4bec-84a7-258444a15d0f)
-    (at 69.495 89.13)
+    (at 124.105 107.545)
     (descr "SC-59, https://lib.chipdip.ru/images/import_diod/original/SOT-23_SC-59.jpg")
     (tags "SC-59")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2391,7 +2391,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp a22c9378-cb07-42e9-bccf-33d1cff1bfc4)
-    (at 59.855 71.23)
+    (at 114.465 89.645)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2523,7 +2523,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp a6df293d-b988-4159-a460-dc37044a7661)
-    (at 59.795 91.78)
+    (at 114.405 110.195)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2577,7 +2577,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp a90de566-9848-49bc-a0ed-dca1c75e0b67)
-    (at 56.885 99.74)
+    (at 111.495 118.155)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2631,7 +2631,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp aa1700cf-cb01-4a33-bbdb-0c5fee90dc35)
-    (at 56.885 97.75)
+    (at 111.495 116.165)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2685,7 +2685,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp ad22b378-045b-4dcc-bb1f-521b39e8b7b3)
-    (at 53.975 95.76)
+    (at 108.585 114.175)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2739,7 +2739,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp af91419e-f819-4b03-a461-95f9c6f9a81d)
-    (at 65.615 93.77)
+    (at 120.225 112.185)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2793,7 +2793,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp b2726b0a-3255-40ff-abe8-768ea7525111)
-    (at 62.705 91.78)
+    (at 117.315 110.195)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2847,7 +2847,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp b86a6e8c-52f2-49a9-95f5-15b3449a6e17)
-    (at 59.795 93.77)
+    (at 114.405 112.185)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -2963,7 +2963,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp bb791913-3868-47cc-b36b-2578ba9a60c0)
-    (at 59.795 89.79)
+    (at 114.405 108.205)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3017,7 +3017,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp c72c1530-9adf-4999-8064-59d8a87b5e2a)
-    (at 69.635 75.68)
+    (at 124.245 94.095)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3079,7 +3079,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp c8bbc942-22e4-4b29-86a0-00afd15a8929)
-    (at 69.635 80.13)
+    (at 124.245 98.545)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3211,7 +3211,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp d2e5e0ad-a4ce-4c81-ae50-7c038f9f9361)
-    (at 59.855 75.68)
+    (at 114.465 94.095)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3335,7 +3335,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp d8ab7032-2c2c-4026-8f3b-7a551aa470c4)
-    (at 64.745 75.68)
+    (at 119.355 94.095)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3397,7 +3397,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp e26df0a0-fb38-4271-a1a2-adc3bd106c36)
-    (at 56.885 93.77)
+    (at 111.495 112.185)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3451,7 +3451,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp e58fe7ef-01d3-4ad9-9a1f-7b3729e010ff)
-    (at 65.615 95.76)
+    (at 120.225 114.175)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3613,7 +3613,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp ec0b50e9-2b70-4d1f-8ce8-9a2677510daf)
-    (at 64.745 80.13)
+    (at 119.355 98.545)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3675,7 +3675,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp ee4f9025-8db4-4452-84ff-001538029655)
-    (at 69.635 84.58)
+    (at 124.245 102.995)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3791,7 +3791,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp fa652e7d-58d6-44ee-b79a-054085541c39)
-    (at 53.975 99.74)
+    (at 108.585 118.155)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
@@ -3845,7 +3845,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp fe5a9398-be72-40e8-aa12-571ac2f13aca)
-    (at 59.795 99.74)
+    (at 114.405 118.155)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "led_drv_trns.kicad_sch")
