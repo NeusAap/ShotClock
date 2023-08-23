@@ -1013,8 +1013,8 @@
     (property "Datasheet" "~" (at 101.6 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7a005660-0bbf-4526-8bba-437b0325cd5c))
-    (pin "2" (uuid 93217baf-62f3-4092-aad1-c38fd87afaf8))
+    (pin "1" (uuid 678d7de1-d5fc-4152-b104-bff7b023822b))
+    (pin "2" (uuid c33c62ed-600a-422e-bb05-1c82aaf9da4a))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
