@@ -343,7 +343,7 @@
 
   (footprint "TK-6580S-2:SW-SMD_TK-6580S-2" (layer "F.Cu")
     (tstamp 13d35968-74b8-47f9-bbdc-7825406bd428)
-    (at 185 72.8 180)
+    (at 184 73.8 180)
     (property "LCSC Part" "C528775")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
     (property "Sheetname" "Schmitt trigger and buttons")
@@ -477,7 +477,7 @@
 
   (footprint "AFC01-S24FCA-00:FPC-SMD_P0.50-24P_FGS-XJ-H2.0" (layer "F.Cu")
     (tstamp 1860eab5-fef7-4303-ac60-b0e47645e950)
-    (at 161.5 130 180)
+    (at 163.5 130 180)
     (property "LCSC Part" "C262669")
     (property "Sheetfile" "header_connectors_segment.kicad_sch")
     (property "Sheetname" "Connectors to segment displays")
@@ -772,7 +772,7 @@
 
   (footprint "AFC01-S24FCA-00:FPC-SMD_P0.50-24P_FGS-XJ-H2.0" (layer "F.Cu")
     (tstamp 265a9c4b-9847-4360-903d-aa0b5bf7a866)
-    (at 184 100 -90)
+    (at 184 102 -90)
     (property "LCSC Part" "C262669")
     (property "Sheetfile" "header_connectors_segment.kicad_sch")
     (property "Sheetname" "Connectors to segment displays")
@@ -1179,7 +1179,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 2d6704d5-a15d-4c77-a266-8bb938356560)
-    (at 169.82 81)
+    (at 168.82 81)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
@@ -1287,7 +1287,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 2e30a942-e922-4ba8-9897-a6673266e45d)
-    (at 167.55 91 -90)
+    (at 166.55 91 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "STM32F103RCT6_Subsheet.kicad_sch")
@@ -1341,7 +1341,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 2eecdd68-31a7-4a35-901f-91f3d2f63a13)
-    (at 148.5 129.01 90)
+    (at 150 129.01 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -1426,7 +1426,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 304a1d20-749f-49bf-81bd-9c13954e4e20)
-    (at 169.54 91.5 180)
+    (at 168.54 91.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
@@ -1673,7 +1673,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" (layer "F.Cu")
     (tstamp 3da34653-91c3-44ae-b862-182b5cb6ba63)
-    (at 165.38 75.5 90)
+    (at 164.38 75.5 90)
     (descr "Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x06 2.54mm single row")
     (property "Sheetfile" "STM32F103RCT6_Subsheet.kicad_sch")
@@ -1682,7 +1682,7 @@
     (property "ki_keywords" "connector")
     (path "/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291/83737621-7221-4371-b9cb-46cc705b12f9")
     (attr through_hole)
-    (fp_text reference "J3" (at 3.25 -2.88 180) (layer "F.SilkS")
+    (fp_text reference "J3" (at 3.25 -2.88) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc795c20-fb3d-4931-b55d-a138f784dce3)
     )
@@ -1899,7 +1899,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (layer "F.Cu")
     (tstamp 3db7e408-fe0b-488d-9d7f-a76693294121)
-    (at 127.25 124.54 180)
+    (at 128.75 124.54 180)
     (descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -2137,7 +2137,7 @@
 
   (footprint "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD" (layer "F.Cu")
     (tstamp 43dc67fc-4bf3-463f-8be2-57861fe6b9cb)
-    (at 160.25 81.75 -90)
+    (at 160 81.75 -90)
     (descr "surface-mounted straight pin header, 2x07, 1.27mm pitch, double rows")
     (tags "Surface mounted pin header SMD 2x07 1.27mm double row")
     (property "Sheetfile" "STM32F103RCT6_Subsheet.kicad_sch")
@@ -2311,7 +2311,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tstamp 465cdbda-f72a-44bc-ad80-b6501f050acf)
-    (at 174.775 86.19)
+    (at 173.775 86.19)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Manufacturer" "STMicroelectronics")
@@ -2395,7 +2395,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 51d680cd-ea63-4ea8-9b8e-74902d5db383)
-    (at 169.82 79.75 180)
+    (at 168.82 79.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
@@ -3046,7 +3046,7 @@
 
   (footprint "SM03B-SRSS-TB:CONN-SMD_SM03B-SRSS-TB-LF-SN-P" (layer "F.Cu")
     (tstamp 678c00fc-648e-48e7-a39b-116c8f39919e)
-    (at 120.75 116.75 -90)
+    (at 121.5 116.75 -90)
     (property "JLC Part" "Extended Part")
     (property "LCSC Part" "C160403")
     (property "Manufacturer" "JST")
@@ -3101,7 +3101,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 6a4495b7-f929-4df0-8b75-9c5e8aa4cedc)
-    (at 146.305 129.445)
+    (at 147.805 129.445)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -3155,7 +3155,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 700ccf5d-cfd6-4788-b762-6214e499006d)
-    (at 169.54 90.25)
+    (at 168.54 90.25)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
@@ -3421,7 +3421,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (layer "F.Cu")
     (tstamp 760022e8-5b61-40e4-bc88-5f70e4fb4811)
-    (at 136.04 126.5 -90)
+    (at 137.54 125 -90)
     (descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -3623,7 +3623,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 782d10e8-ba52-4604-8874-90864f68a36d)
-    (at 141.225 132.3175 -90)
+    (at 142.725 132.3175 -90)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -3919,7 +3919,7 @@
 
   (footprint "NetTie:NetTie-2_SMD_Pad2.0mm" (layer "F.Cu")
     (tstamp 80518041-e746-46e4-b61e-fa219b3ce901)
-    (at 143.75 69.25 -90)
+    (at 142.75 69.25 -90)
     (descr "Net tie, 2 pin, 2.0mm square SMD pads")
     (tags "net tie")
     (property "Sheetfile" "Regulator3V3.kicad_sch")
@@ -4059,7 +4059,7 @@
 
   (footprint "TK-6580S-2:SW-SMD_TK-6580S-2" (layer "F.Cu")
     (tstamp 81d51577-c947-4272-b57e-bad9b476a4eb)
-    (at 185 80.4 180)
+    (at 184 81.4 180)
     (property "LCSC Part" "C528775")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
     (property "Sheetname" "Schmitt trigger and buttons")
@@ -4277,7 +4277,7 @@
 
   (footprint "TK-6580S-1:SW-SMD_TK-6580S-1" (layer "F.Cu")
     (tstamp 8977d164-69e1-4b24-980b-839a8df9158d)
-    (at 185 126)
+    (at 184 126)
     (property "LCSC Part" "C528774")
     (property "Sheetfile" "ShotClockProject.kicad_sch")
     (property "Sheetname" "")
@@ -4392,7 +4392,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric" (layer "F.Cu")
     (tstamp 917c193d-53ef-4ab9-9603-ca440a946c87)
-    (at 124.605 70.25 90)
+    (at 126.5 70.2875 90)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Regulator5V.kicad_sch")
@@ -4450,7 +4450,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "F.Cu")
     (tstamp 92247dcf-99de-4514-bb65-4976f1a4476b)
-    (at 127.08 69.36)
+    (at 128.895 69.3975)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "ShotClockProject.kicad_sch")
@@ -4651,7 +4651,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 96c76067-5c3e-48e7-a1ad-a77ec0aaf906)
-    (at 150.75 131.985 -90)
+    (at 152.25 131.985 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -5148,7 +5148,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tstamp a35132d5-e504-471f-a80f-ab4a47811f58)
-    (at 143.71 116.1 90)
+    (at 145.21 116.1 90)
     (descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -5727,7 +5727,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp b542cac1-ef7c-40b7-a868-715ae5b80885)
-    (at 177.25 126 180)
+    (at 176.25 126 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "ShotClockProject.kicad_sch")
@@ -6126,7 +6126,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp ca31ee30-a754-460c-8153-7ab9c355b989)
-    (at 168.8 86.5 90)
+    (at 167.8 86.5 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
@@ -6288,7 +6288,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "F.Cu")
     (tstamp cf625767-a3e2-41c3-a097-fdd0a1ff4eb1)
-    (at 150.75 121)
+    (at 152.5 121.75)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "ShotClockProject.kicad_sch")
@@ -6379,7 +6379,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp d1fbf99a-30d2-469d-9cf0-ab26dcec45b4)
-    (at 139.32 129.445)
+    (at 140.82 129.445)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -6685,7 +6685,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp dcf59654-4b03-4e92-bd3b-c34ebc6dfa4c)
-    (at 122.605 71.51 -90)
+    (at 123.5 71.51 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Regulator5V.kicad_sch")
@@ -6825,7 +6825,7 @@
 
   (footprint "AFC01-S24FCA-00:FPC-SMD_P0.50-24P_FGS-XJ-H2.0" (layer "F.Cu")
     (tstamp e5ac2115-4b53-415a-9ab7-6aa62425e6b6)
-    (at 154 70)
+    (at 153 70)
     (property "LCSC Part" "C262669")
     (property "Sheetfile" "header_connectors_segment.kicad_sch")
     (property "Sheetname" "Connectors to segment displays")
@@ -6922,7 +6922,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp e6ab6284-6daf-43bf-980d-6b2605373873)
-    (at 147.575 132.3175 -90)
+    (at 149.075 132.3175 -90)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -7146,7 +7146,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp f6c386e1-bff4-4b0d-acc6-4ecd2665ed95)
-    (at 142.495 129.445 180)
+    (at 143.995 129.445 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -7254,7 +7254,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp fa7fd473-e798-4419-9d20-19a7fcd9d8d3)
-    (at 144.4 130.715 -90)
+    (at 145.9 130.715 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "LipoBattAndCharger.kicad_sch")
@@ -7308,7 +7308,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp fb8d0087-fc26-4b52-99e6-27efa08c89b7)
-    (at 170.05 86.5 -90)
+    (at 169.05 86.5 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
@@ -7317,7 +7317,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/1ce26b90-d7f5-4886-998a-a021d351eec6/5f44c8a5-6225-4f21-9473-bb8fb9dc670a")
     (attr smd)
-    (fp_text reference "C30" (at 0 2.5 -90) (layer "F.SilkS")
+    (fp_text reference "C30" (at 0 2.5 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7d3b70e5-6c8c-48d7-93e7-2696f1a1e3da)
     )
@@ -7478,7 +7478,7 @@
 
   (footprint "TK-6580S-2:SW-SMD_TK-6580S-2" (layer "F.Cu")
     (tstamp fe55b7a6-ca82-4b5a-8b7b-8419b46222a9)
-    (at 185 88 180)
+    (at 184 89 180)
     (property "LCSC Part" "C528775")
     (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch")
     (property "Sheetname" "Schmitt trigger and buttons")
@@ -7557,13 +7557,13 @@
 
   (gr_line (start 121 135.9) (end 187 135.901723)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 13eefc7f-9a4c-4496-b19a-f9bb881b893e))
-  (gr_circle (center 121 133) (end 123.2 133)
+  (gr_circle (center 121.5 132.5) (end 123.7 132.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 2b250654-db2a-4769-a50a-0cf494be540c))
   (gr_arc (start 189.899999 132.9) (mid 189.086884 135.016162) (end 187 135.901723)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 451a3749-f96c-4cbe-8886-9945c08fe4ed))
-  (gr_circle (center 187 67) (end 189.2 67)
+  (gr_circle (center 186.5 67.5) (end 188.7 67.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 473b7276-9eb4-4589-84eb-ecee63deb688))
-  (gr_circle (center 121 67) (end 123.2 67)
+  (gr_circle (center 121.5 67.5) (end 123.7 67.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 75a89418-92dc-4f2b-8c25-57680a5029da))
   (gr_arc (start 121 135.9) (mid 118.94939 135.05061) (end 118.1 133)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 7d68df7d-ca12-45f3-b85c-0616db14232f))
@@ -7575,7 +7575,7 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 98943c85-004c-4e8b-bcd6-d33cd120bdfb))
   (gr_line (start 118.1 67) (end 118.1 133)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e00c62cb-7164-47c7-814c-09ab3d3831ae))
-  (gr_circle (center 187 133) (end 189.2 133)
+  (gr_circle (center 186.5 132.5) (end 188.7 132.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp e74f1033-c4fe-4ce1-8be1-79f60342d83c))
   (gr_line (start 187 64.1) (end 121 64.1)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp facf2e6d-0db3-40b8-9a82-c276ba1a9250))
