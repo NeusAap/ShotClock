@@ -1,0 +1,52 @@
+Comment,Designator,Footprint,LCSC Part #
+CY-SMD-9019-3040 ,BUZZER1,BUZ-SMD_L9.0-W9.0-P8.00-LS9.3_CY,C968734
+10u Unpolarized capacitor,"C1,C14,C15,C19,C20,C21,C24,C25,C26",C_0603_1608Metric,C96446
+100n Unpolarized capacitor,"C2,C3,C4,C5,C9,C16,C28,C29,C30",C_0402_1005Metric,C1525
+10n Unpolarized capacitor,C6,C_0402_1005Metric,C15195
+1u Unpolarized capacitor,"C7,C8,C12,C13",C_0402_1005Metric,C52923
+6p Unpolarized capacitor,"C10,C11",C_0402_1005Metric,C107007
+10n Unpolarized capacitor,C17,C_0603_1608Metric,C57112
+2.2p Unpolarized capacitor,"C18,C23",C_0402_1005Metric,C1559
+0.1u Unpolarized capacitor,"C22,C27",C_0402_1005Metric,C1525
+Orange LED Light emitting diode,D1,LED_0603_1608Metric,C264451
+"1N4148 100V 0.15A standard switching diode, DO-35",D2,D_SOD-323,C2128
+G_LED Light emitting diode,"D3,D5,D6",LED_0603_1608Metric,C72043
+R_LED Light emitting diode,D4,LED_0603_1608Metric,C128250
+120R Ferrite bead,FB1,L_0603_1608Metric,C127301
+AFC01-S24FCA-00 ,"FPC1,FPC2,FPC3,FPC4",FPC-SMD_P0.50-24P_FGS-XJ-H2.0,C262669
+TP4056-42-ESOP8_Rearanged PMIC - Battery Management ESOP-8 RoHS,IC1,Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias,C725790
+USB4120-03-C_REVA ,J1,GCT_USB4120-03-C_REVA_With3DModel,C5187468
+"Conn_ST_STDC14 ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART",J2,PinHeader_2x07_P1.27mm_Vertical_SMD,C3975190
+"Conn_01x06_Pin Generic connector, single row, 01x06, script generated",J3,PinHeader_1x06_P2.54mm_Horizontal,C56816
+SM03B-SRSS-TB(LF)(SN)(P) ,J4,CONN-SMD_SM03B-SRSS-TB-LF-SN-P,C160403
+"Conn_01x02_Pin Generic connector, single row, 01x02, script generated",J5,PinHeader_1x02_P2.54mm_Horizontal,C225269
+"Conn_01x03_Pin Generic connector, single row, 01x03, script generated",J6,PinHeader_1x03_P2.54mm_Horizontal,C92159
+2.2uH Inductor,"L1,L2",L_Sunlord_SWPA3012S,C404494
+"Q_NPN_BCE NPN transistor, base/collector/emitter","Q1,Q3,Q4",SOT-23,C111113
+"Q_PMOS_SGD P-MOSFET transistor, source/gate/drain",Q2,TO-263-2,C33903
+0R Resistor,"R1,R2,R3,R4",R_0402_1005Metric,C17168
+5k1 Resistor,"R5,R7",R_0402_1005Metric,C25905
+10k Resistor,"R6,R22,R23,R34,R35,R36",R_0402_1005Metric,C25744
+1k5 Resistor,"R8,R29,R33",R_0402_1005Metric,C25867
+130R Resistor,R9,R_0402_1005Metric,C477610
+300R Resistor,R10,R_0402_1005Metric,C25102
+1k Resistor,"R11,R15,R16,R17,R18",R_0402_1005Metric,C105637
+100R Resistor,"R12,R26,R30",R_0402_1005Metric,C25076
+0.4R Resistor,R13,R_0402_1005Metric,C27147
+1M Resistor,"R14,R20,R27,R31",R_0402_1005Metric,C144787
+100k Resistor,R19,R_0402_1005Metric,C25741
+1k2 Resistor,R21,R_0402_1005Metric,C25862
+4780R Resistor,R24,R_0402_1005Metric,C25900
+86k6 Resistor,R25,R_0402_1005Metric,C852935
+178k Resistor,R28,R_0402_1005Metric,C185459
+110k Resistor,R32,R_0402_1005Metric,C25745
+TK-6580S-1 ,SW1,SW-SMD_TK-6580S-1,C528774
+"SW_SPDT Switch, single pole double throw",SW2,SW_SPDT_PCM12_Upwards,C500057
+TK-6580S-2 ,"SW3,SW4,SW5",SW-SMD_TK-6580S-2,C528775
+TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP7,TP8,TP11,TP12",TestPoint_Pad_D1.0mm,
+"STM32F103RCT6 STMicroelectronics Arm Cortex-M3 MCU, 256KB flash, 48KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64",U1,LQFP-64_10x10mm_P0.5mm,C8323
+"LD39015M33R 150mA low quiescent current low noise voltage regulator, Fixed Output 3.3V, SOT-23-5",U2,SOT-23-5,C2798212
+"TPS63000 Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 3.3V Output Voltage, VSON-10","U3,U4",Texas_DRC0010J_ThermalVias_Altered,C24966
+M74HC14YRM13TR ,U5,SOIC-14_3.9x8.7mm_P1.27mm,C157450
+"USBLC6-2SC6 Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",U6,SOT-23-6,C7519
+"16MHz Four pin crystal, GND on pins 2 and 4",Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,C112972
