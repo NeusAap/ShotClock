@@ -355,7 +355,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Socket") (at 118.11 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5665fe1c-f3e0-4823-bf4d-2c4da0c31776)
-    (property "Reference" "J2" (at 119.38 78.74 0)
+    (property "Reference" "J1" (at 119.38 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05_Socket" (at 119.38 81.28 0)
@@ -375,7 +375,7 @@
     (instances
       (project "ShotClockDisplayPCB"
         (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/06b39ac0-a89e-4700-88fa-059ca62688ec"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -384,7 +384,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Socket") (at 180.34 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65c9fd17-caf6-47be-b5f9-555a3ea40e2f)
-    (property "Reference" "J3" (at 181.61 78.74 0)
+    (property "Reference" "J2" (at 181.61 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05_Socket" (at 181.61 81.28 0)
@@ -404,7 +404,7 @@
     (instances
       (project "ShotClockDisplayPCB"
         (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/06b39ac0-a89e-4700-88fa-059ca62688ec"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -413,7 +413,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Socket") (at 180.34 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88715846-2adf-4f63-8074-58872619744a)
-    (property "Reference" "J5" (at 181.61 96.52 0)
+    (property "Reference" "J4" (at 181.61 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05_Socket" (at 181.61 99.06 0)
@@ -433,7 +433,7 @@
     (instances
       (project "ShotClockDisplayPCB"
         (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/06b39ac0-a89e-4700-88fa-059ca62688ec"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -442,7 +442,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Socket") (at 118.11 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcdad5fb-7aac-41b9-bff3-79855ef6b70f)
-    (property "Reference" "J4" (at 119.38 96.52 0)
+    (property "Reference" "J3" (at 119.38 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05_Socket" (at 119.38 99.06 0)
@@ -462,7 +462,7 @@
     (instances
       (project "ShotClockDisplayPCB"
         (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/06b39ac0-a89e-4700-88fa-059ca62688ec"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
