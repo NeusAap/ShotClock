@@ -420,11 +420,6 @@
   (no_connect (at 86.36 52.07) (uuid 98985c65-fe76-4560-8c0d-3d9a0fabccdd))
   (no_connect (at 86.36 49.53) (uuid bb47b342-762d-48dc-8721-6124508f6a99))
 
-  (bus_entry (at 118.745 120.015) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid 776b3c22-c776-4bc5-a322-a136df9e6fe3)
-  )
-
   (wire (pts (xy 203.2 45.72) (xy 231.14 45.72))
     (stroke (width 0) (type default))
     (uuid 097f4998-bcae-4182-9912-a4739fadfc52)
