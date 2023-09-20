@@ -42,55 +42,10 @@
 void MX_GPIO_Init(void)
 {
 
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
-
   /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOC_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
+  __HAL_RCC_GPIOF_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, BUZZER_Pin|BATT_LVL_ORANGE_LED_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, DISP1_SEG_A_Pin|DISP1_SEG_B_Pin|DISP1_SEG_C_Pin|DISP1_SEG_D_Pin
-                          |DISP1_SEG_E_Pin|DISP1_SEG_F_Pin|DISP1_SEG_G_Pin|DISP1_SEG_DP_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, DISP2_SEG_A_Pin|DISP2_SEG_B_Pin|DISP2_SEG_C_Pin|DISP2_SEG_D_Pin
-                          |DISP2_SEG_E_Pin|DISP2_SEG_F_Pin|DISP2_SEG_G_Pin|DISP2_SEG_DP_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pins : PCPin PCPin */
-  GPIO_InitStruct.Pin = BUZZER_Pin|BATT_LVL_ORANGE_LED_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PCPin PCPin PCPin */
-  GPIO_InitStruct.Pin = BUTTON1_Pin|BUTTON2_Pin|BUTTON3_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PAPin PAPin PAPin PAPin
-                           PAPin PAPin PAPin PAPin */
-  GPIO_InitStruct.Pin = DISP1_SEG_A_Pin|DISP1_SEG_B_Pin|DISP1_SEG_C_Pin|DISP1_SEG_D_Pin
-                          |DISP1_SEG_E_Pin|DISP1_SEG_F_Pin|DISP1_SEG_G_Pin|DISP1_SEG_DP_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PBPin PBPin PBPin PBPin
-                           PBPin PBPin PBPin PBPin */
-  GPIO_InitStruct.Pin = DISP2_SEG_A_Pin|DISP2_SEG_B_Pin|DISP2_SEG_C_Pin|DISP2_SEG_D_Pin
-                          |DISP2_SEG_E_Pin|DISP2_SEG_F_Pin|DISP2_SEG_G_Pin|DISP2_SEG_DP_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 
