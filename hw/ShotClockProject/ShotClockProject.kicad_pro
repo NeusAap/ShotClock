@@ -509,10 +509,6 @@
       ""
     ],
     [
-      "d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291",
-      "STM32F103RCT6"
-    ],
-    [
       "d287d155-1951-4d4f-8d6c-570f03bc79f5",
       "Li-Po Battery and charger"
     ],
@@ -531,6 +527,18 @@
     [
       "dbe9281d-d28a-4966-832c-4ef9ca7a9777",
       "Connectors to segment displays"
+    ],
+    [
+      "0090141d-207a-4f3a-bfd6-43ff1a882302",
+      "Buzzer_3v3_PWM"
+    ],
+    [
+      "946767ba-005d-422c-bf1d-949982eca775",
+      "USB-C Connector"
+    ],
+    [
+      "5bec211e-466d-46c6-9543-84cb75088ef1",
+      "STM32G070CBT6"
     ]
   ],
   "text_variables": {}

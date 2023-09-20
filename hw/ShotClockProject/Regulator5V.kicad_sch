@@ -1368,7 +1368,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 66.04 45.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a3c9858-2f60-4c76-9ada-9433f999a605)
-    (property "Reference" "#FLG02" (at 66.04 47.625 0)
+    (property "Reference" "#FLG04" (at 66.04 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 66.04 49.53 0)
@@ -1383,9 +1383,6 @@
     (pin "1" (uuid d355c025-3d18-4051-8683-cc26176bcca3))
     (instances
       (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#FLG02") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "#FLG04") (unit 1)
         )
@@ -1947,7 +1944,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 41.91 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfc0bcd2-9fac-48b3-87b3-c90674db9168)
-    (property "Reference" "#FLG02" (at 41.91 36.195 0)
+    (property "Reference" "#FLG04" (at 41.91 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 41.91 33.02 0)
@@ -1962,9 +1959,6 @@
     (pin "1" (uuid 631fadad-c3d0-40fb-a99f-2d84cb76976d))
     (instances
       (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#FLG02") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "#FLG04") (unit 1)
         )

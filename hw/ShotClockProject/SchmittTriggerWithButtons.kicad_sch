@@ -780,9 +780,6 @@
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "C4") (unit 1)
         )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C5") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "C28") (unit 1)
         )
@@ -879,9 +876,6 @@
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR02") (unit 1)
         )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR06") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR069") (unit 1)
         )
@@ -910,9 +904,6 @@
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR011") (unit 1)
         )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR073") (unit 1)
         )
@@ -940,9 +931,6 @@
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR011") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR074") (unit 1)
@@ -979,9 +967,6 @@
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "C4") (unit 1)
         )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C5") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "C30") (unit 1)
         )
@@ -1010,9 +995,6 @@
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR011") (unit 1)
         )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR076") (unit 1)
         )
@@ -1040,9 +1022,6 @@
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR02") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR070") (unit 1)
@@ -1103,9 +1082,6 @@
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR011") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR071") (unit 1)
@@ -1171,9 +1147,6 @@
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR011") (unit 1)
         )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR077") (unit 1)
         )
@@ -1209,9 +1182,6 @@
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "C4") (unit 1)
         )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "C5") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "C29") (unit 1)
         )
@@ -1240,9 +1210,6 @@
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR011") (unit 1)
         )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR072") (unit 1)
         )
@@ -1270,9 +1237,6 @@
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
           (reference "#PWR011") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d53b1cd8-24cb-4dc0-9a02-0cd96c1f4291"
-          (reference "#PWR01") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/1ce26b90-d7f5-4886-998a-a021d351eec6"
           (reference "#PWR075") (unit 1)
