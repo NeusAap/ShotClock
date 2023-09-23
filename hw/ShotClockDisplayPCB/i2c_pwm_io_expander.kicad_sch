@@ -1,0 +1,23 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8bb38b26-f3ae-436c-b6d5-c7dcb07eff6b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "I2C1_SDA" (shape input) (at 31.75 78.74 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 648aeb5b-49e0-411c-a18c-2197c6e72353)
+  )
+  (hierarchical_label "TLC59116_RESETn" (shape input) (at 41.275 57.15 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6cbd8d0b-29f3-4700-8b5a-d2a19df398ec)
+  )
+  (hierarchical_label "I2C1_SCL" (shape input) (at 31.75 76.2 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 96dd6f6b-b409-4e55-9fd9-5f7afb776987)
+  )
+)
