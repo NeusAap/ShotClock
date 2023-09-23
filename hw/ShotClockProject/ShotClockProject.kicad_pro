@@ -60,9 +60,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        "text_height|152800000|102000000|7930419c-44c8-41e5-b036-6e76719c4c37|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -509,6 +507,10 @@
       ""
     ],
     [
+      "5bec211e-466d-46c6-9543-84cb75088ef1",
+      "STM32G070CBT6"
+    ],
+    [
       "d287d155-1951-4d4f-8d6c-570f03bc79f5",
       "Li-Po Battery and charger"
     ],
@@ -535,10 +537,6 @@
     [
       "946767ba-005d-422c-bf1d-949982eca775",
       "USB-C Connector"
-    ],
-    [
-      "5bec211e-466d-46c6-9543-84cb75088ef1",
-      "STM32G070CBT6"
     ]
   ],
   "text_variables": {}

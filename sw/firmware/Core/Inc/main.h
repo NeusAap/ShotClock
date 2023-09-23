@@ -57,6 +57,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BOOT0_IN_Pin GPIO_PIN_13
+#define BOOT0_IN_GPIO_Port GPIOC
+#define BUTTON1_IN_Pin GPIO_PIN_4
+#define BUTTON1_IN_GPIO_Port GPIOA
+#define BUTTON2_IN_Pin GPIO_PIN_5
+#define BUTTON2_IN_GPIO_Port GPIOA
+#define BUTTON3_IN_Pin GPIO_PIN_6
+#define BUTTON3_IN_GPIO_Port GPIOA
+#define ORANGE_LED_Pin GPIO_PIN_0
+#define ORANGE_LED_GPIO_Port GPIOB
+#define TLC59116_RESETn_Pin GPIO_PIN_7
+#define TLC59116_RESETn_GPIO_Port GPIOC
 
 /* USER CODE BEGIN Private defines */
 

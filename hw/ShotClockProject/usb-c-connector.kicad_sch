@@ -885,7 +885,7 @@
           (reference "#FLG04") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG011") (unit 1)
         )
       )
     )
@@ -920,7 +920,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "R5") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -948,7 +948,7 @@
           (reference "#FLG04") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG010") (unit 1)
         )
       )
     )
@@ -976,7 +976,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1004,7 +1004,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1068,7 +1068,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -1077,7 +1077,7 @@
   (symbol (lib_id "USB4120-03-C_REVA:USB4120-03-C_REVA") (at 151.765 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 750b9248-1e18-4d62-bf77-54e0ef932445)
-    (property "Reference" "J1" (at 151.765 50.8 0)
+    (property "Reference" "J10" (at 151.765 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB4120-03-C_REVA" (at 151.765 53.34 0)
@@ -1130,7 +1130,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "J1") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1158,7 +1158,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1186,7 +1186,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -1221,7 +1221,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "R7") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )

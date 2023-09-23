@@ -404,7 +404,7 @@
   (symbol (lib_id "Diode:1N4148") (at 144.78 95.885 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36694b33-3f39-4e8d-9588-44c5a491476a)
-    (property "Reference" "D2" (at 142.24 94.615 90)
+    (property "Reference" "D6" (at 142.24 94.615 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4148" (at 142.24 97.155 90)
@@ -433,7 +433,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/0090141d-207a-4f3a-bfd6-43ff1a882302"
-          (reference "D2") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -506,7 +506,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/0090141d-207a-4f3a-bfd6-43ff1a882302"
-          (reference "R11") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -534,7 +534,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/0090141d-207a-4f3a-bfd6-43ff1a882302"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -569,7 +569,7 @@
           (reference "R2") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/0090141d-207a-4f3a-bfd6-43ff1a882302"
-          (reference "R10") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -597,7 +597,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/0090141d-207a-4f3a-bfd6-43ff1a882302"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -606,7 +606,7 @@
   (symbol (lib_id "Device:Q_NPN_BCE") (at 147.32 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdf1346b-0e85-4182-933c-da47d6a4a104)
-    (property "Reference" "Q1" (at 152.4 104.775 0)
+    (property "Reference" "Q4" (at 152.4 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NPN_BCE" (at 152.4 107.315 0)
@@ -630,7 +630,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/0090141d-207a-4f3a-bfd6-43ff1a882302"
-          (reference "Q1") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -658,7 +658,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/0090141d-207a-4f3a-bfd6-43ff1a882302"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
