@@ -2791,9 +2791,9 @@
     (property "LCSC Part" "C111113" (at 166.37 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49291dfb-00e1-466b-b84b-b033a18fef3b))
-    (pin "2" (uuid 8516221a-f9d7-444b-9dd9-ead7acc59289))
-    (pin "3" (uuid 4faff257-93a2-40b3-98c8-865a14ac8923))
+    (pin "1" (uuid 5de7e971-78a6-45cc-8cbf-be5ac35e4b4b))
+    (pin "2" (uuid a51155dd-21f6-43c2-8ad4-a6d9b108f1cc))
+    (pin "3" (uuid 2d6358e5-0e6a-4fd0-8c52-8ce2ce26e952))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
@@ -2818,7 +2818,7 @@
     (property "Datasheet" "" (at 132.08 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 794f313e-ab78-4324-b9fe-1005fdf14328))
+    (pin "1" (uuid e3e38e1a-d209-4082-93dd-e8bc80acf267))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2852,8 +2852,8 @@
     (property "LCSC Part" "C105637" (at 41.91 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 31918295-22d7-44f8-9d17-256791482df8))
-    (pin "2" (uuid 68ff5ed3-cd19-4127-89ea-37a60537c07c))
+    (pin "1" (uuid febcb8a7-5c27-46fd-9cd0-0c982a1a1368))
+    (pin "2" (uuid 65ab4bb4-5226-4b3c-ba0a-80f8c74af0df))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2881,7 +2881,7 @@
     (property "Datasheet" "" (at 118.11 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06f9dbb6-94e1-4c3a-854c-52ba4870bb58))
+    (pin "1" (uuid 943b6c7f-813d-4e91-a9cc-adc72e04e064))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2915,8 +2915,8 @@
     (property "LCSC Part" "C105637" (at 152.4 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9816c7c-872a-426c-b178-d682b610d17c))
-    (pin "2" (uuid 2f621664-8b29-489d-909a-53928b0e31d0))
+    (pin "1" (uuid 0f9484af-7a7f-4879-a6e9-ff48915ea67e))
+    (pin "2" (uuid ab308986-94ee-4ad8-9997-bdc63ef235e8))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2972,7 +2972,7 @@
     (property "Datasheet" "" (at 121.92 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63169e03-fd06-47aa-8b52-69759ccbe5a7))
+    (pin "1" (uuid b9285251-8af9-432a-a801-e9d780c5052d))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3034,8 +3034,8 @@
     (property "LCSC Part" "C25744" (at 177.8 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cd2e2cd4-ffba-4f33-ad87-0b27751e6b62))
-    (pin "2" (uuid 34bc3c78-076e-4076-a846-955a147442e7))
+    (pin "1" (uuid a384e10e-4e93-471c-99e2-678fe5caf6d4))
+    (pin "2" (uuid 79f793de-2f37-412d-8acf-1feca27536ac))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3104,7 +3104,7 @@
     (property "Datasheet" "" (at 152.4 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d9376184-6c73-483e-9917-65d688471a76))
+    (pin "1" (uuid 341c7417-1ae1-4040-b7de-c6a1cba79825))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3138,9 +3138,9 @@
     (property "LCSC Part" "C33903" (at 186.69 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fa8ed6d-1b43-4b5b-b462-327621ba8902))
-    (pin "2" (uuid 7966eb65-b359-4892-9735-0f7b7f42c415))
-    (pin "3" (uuid 27bdbdfd-2d01-4eda-a117-8f4090969658))
+    (pin "1" (uuid 3d9ed041-9c17-46e8-8c70-794cbba0d913))
+    (pin "2" (uuid 0aec666a-7dfd-469e-b04e-2216279bf804))
+    (pin "3" (uuid a3f64d53-de63-40ac-8ce4-cea20a5156ae))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3168,7 +3168,7 @@
     (property "Datasheet" "" (at 31.75 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4d19ec4d-cf5c-4a48-af77-0a90c0df2962))
+    (pin "1" (uuid 842b2416-2980-457c-9fce-e9bd8509c195))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3196,7 +3196,7 @@
     (property "Datasheet" "" (at 152.4 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a336b9f5-f5e8-4510-a9b7-0204735c1254))
+    (pin "1" (uuid 4bc6cf4a-eebb-4448-8270-3d65da6eb5cb))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3230,8 +3230,8 @@
     (property "LCSC Part" "C72043" (at 41.91 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e1ca69c1-e779-459e-a17f-1c24c60c10ce))
-    (pin "2" (uuid 22e2ae22-e85c-42d9-a6ef-95e4ec1d2497))
+    (pin "1" (uuid 8a1b3ffd-16c6-4653-8125-5a819e2cba9a))
+    (pin "2" (uuid 40ec1384-4d6b-4376-939c-493d0f92db89))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3259,7 +3259,7 @@
     (property "Datasheet" "" (at 114.3 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a151934a-fc62-4582-86f5-5410a9fecfd6))
+    (pin "1" (uuid cbf69a36-8f1a-4778-a2ef-45244a32bb25))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3315,7 +3315,7 @@
     (property "Datasheet" "" (at 82.55 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00aea18e-5704-4916-bb87-023d528733a3))
+    (pin "1" (uuid 3d6d713d-970b-4606-87f8-3904b6f23c2d))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3375,7 +3375,7 @@
     (property "Datasheet" "" (at 59.69 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8042d9c7-9d81-46f4-a579-37f265ac2d5b))
+    (pin "1" (uuid 8582ed9f-868a-480c-84ef-d10b9c8f4574))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3409,8 +3409,8 @@
     (property "LCSC Part" "C96446" (at 121.92 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00815316-7354-4ee7-aa44-4e7b43cc5978))
-    (pin "2" (uuid 539bb7ba-f77c-4a0b-98a4-a9720d119a6f))
+    (pin "1" (uuid 41e10e38-90b5-4f65-9abd-9fbcbdee6247))
+    (pin "2" (uuid aed0789b-c336-428a-8204-83035531295c))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3444,8 +3444,8 @@
     (property "LCSC Part" "" (at 127 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f287384-7de5-4933-b20d-89c3cb31c47c))
-    (pin "2" (uuid 05967e10-e8eb-4105-b0a3-860857dc05f3))
+    (pin "1" (uuid 2aaba442-2b14-4952-bcd9-de54d7d910a7))
+    (pin "2" (uuid ca720073-114c-4715-b4a2-037e3eb572c5))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
@@ -3511,8 +3511,8 @@
     (property "LCSC Part" "C27147" (at 59.69 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0d73534-73a9-401f-b66d-f3f3fe2089fa))
-    (pin "2" (uuid 97b02887-86e4-419b-8a56-6016521ebae4))
+    (pin "1" (uuid 574ac91d-80ad-4100-8045-c08d1f45eabc))
+    (pin "2" (uuid dba81146-a83d-45b6-b520-4a72343826df))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3546,8 +3546,8 @@
     (property "LCSC Part" "C57112" (at 143.51 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 405b9bda-5aad-485a-8ced-ff934fbe8a49))
-    (pin "2" (uuid 277064be-c240-4b4c-8fc5-946d716618c2))
+    (pin "1" (uuid 52290500-d524-44be-a565-aa739e9c205c))
+    (pin "2" (uuid 132fe448-1658-4de1-a6de-2a050166b094))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3609,8 +3609,8 @@
     (property "LCSC Part" "C25862" (at 114.3 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b2dd9594-63c8-4724-9869-bdf0f411fb51))
-    (pin "2" (uuid 467f7e55-aa3d-4286-9c18-2a5a5a20333b))
+    (pin "1" (uuid e442b3a3-4197-47eb-8d38-a7ad38d7589d))
+    (pin "2" (uuid 4c9fff65-bcea-4b39-ad36-bac573366e57))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3709,8 +3709,8 @@
     (property "LCSC Part" "C25741" (at 177.8 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f44aaee8-8d5a-4c30-a7b4-2d82ee151af8))
-    (pin "2" (uuid 884196a7-2987-4c25-9ba6-f5b2a62c2fd2))
+    (pin "1" (uuid ae11aee1-7128-49b5-8ebb-339a53e5dae6))
+    (pin "2" (uuid 1c93f397-548c-496a-be23-1bb2df07164b))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3779,8 +3779,8 @@
     (property "LCSC Part" "C128250" (at 50.8 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dcf62656-3346-4e35-b29f-81ecf1d8bac7))
-    (pin "2" (uuid 3c982274-4852-4e7f-96fb-fadda79d753e))
+    (pin "1" (uuid 12ba30e8-517f-4763-aafc-b23c24fe7a2b))
+    (pin "2" (uuid 1503873f-0503-4fc4-a4e8-6d62a5ead53f))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3808,7 +3808,7 @@
     (property "Datasheet" "" (at 186.69 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c0b7ffa-b456-4a43-8b5d-06971475d7e0))
+    (pin "1" (uuid a0c8c256-08ef-48a2-a807-8a6fa8a0a283))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3863,15 +3863,15 @@
     (property "LCSC Part" "C725790" (at 97.79 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ef09008e-8bd8-4425-83d0-46381bbbc16d))
-    (pin "2" (uuid 42a67043-49d4-4492-a199-f995d8a1db2c))
-    (pin "3" (uuid 30c05651-58b0-49bf-857b-9eed2bc8271b))
-    (pin "4" (uuid 699220a7-fe5d-478e-88fd-ee4a431dbef3))
-    (pin "5" (uuid 0e6bc774-7456-41c8-8f28-6093592101a4))
-    (pin "6" (uuid db6bcddf-fc79-4007-be1c-897cedd567ff))
-    (pin "7" (uuid 4c6da410-7943-4a59-9b33-15c5055db59b))
-    (pin "8" (uuid 6111cb15-bad3-4584-a68f-0d97d121f559))
-    (pin "9" (uuid 974eee0c-3e79-4f39-b2f3-8ba551256974))
+    (pin "1" (uuid 5bfa186d-5b51-4552-9481-f8a5c6460602))
+    (pin "2" (uuid 2cb2e771-5b10-44a3-b5f9-934ba8cf5997))
+    (pin "3" (uuid 495443fe-27a0-48b7-9369-53695fdf160f))
+    (pin "4" (uuid aa0e8b3f-5683-40b6-9585-9ace39f07ca6))
+    (pin "5" (uuid c076a62e-e71e-4bba-992a-8ce399723d4f))
+    (pin "6" (uuid 2efbe1a2-f8a1-4099-8c0b-4f6c44db7ef3))
+    (pin "7" (uuid d54928a8-3057-483c-9115-cab04b545b02))
+    (pin "8" (uuid 9120fbb1-b649-4022-b97e-00c40f9f40a1))
+    (pin "9" (uuid 79953f78-5335-4300-8172-18db977cc5ef))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3987,7 +3987,7 @@
     (property "Datasheet" "" (at 121.92 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e380c250-5e40-4c6e-b88f-de88d2323ca5))
+    (pin "1" (uuid 50e2e1c0-ca54-4060-8928-576f187fc902))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4021,8 +4021,8 @@
     (property "LCSC Part" "C96446" (at 31.75 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f04709a5-5f8f-4a3f-ae62-3aa7fe551986))
-    (pin "2" (uuid d80e9e23-3bdd-4d43-906b-bd2434563e75))
+    (pin "1" (uuid 3f1369aa-c992-4ae5-8e70-b875697191cd))
+    (pin "2" (uuid 72a92b6d-8fc0-49b6-8d3b-8c97ef8e4e7a))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4056,8 +4056,8 @@
     (property "LCSC Part" "C105637" (at 168.91 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 82a99986-3723-4732-93a5-f55679c768e3))
-    (pin "2" (uuid 83fb207e-ae81-4a5f-962e-4d9b23d1b0ae))
+    (pin "1" (uuid b2db068c-cfa6-4ea2-b93d-3590280143ae))
+    (pin "2" (uuid 2d704fa2-3ccd-4a2f-9995-7388c6cfd0d6))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4085,7 +4085,7 @@
     (property "Datasheet" "" (at 177.8 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0787a090-cd60-459a-be06-e8e34175f998))
+    (pin "1" (uuid c21147c0-cea4-466c-b487-db4e3ec7643a))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4119,9 +4119,9 @@
     (property "LCSC Part" "C111113" (at 184.15 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3cfba05e-1d9c-4dc8-bc65-c680c130d41e))
-    (pin "2" (uuid b9faf0f5-0b80-406d-b85f-f421f4bd0496))
-    (pin "3" (uuid 4a12ef03-b3e7-4110-af4f-f8a0e1188f01))
+    (pin "1" (uuid 0b0e7b52-3a2e-4470-833d-a9e9709c3ed1))
+    (pin "2" (uuid 2a4fa255-5f46-4684-b358-f2b3b9ec2c40))
+    (pin "3" (uuid c008dcf3-b597-4059-9c70-481039f8d52f))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
@@ -4152,8 +4152,8 @@
     (property "LCSC Part" "C105637" (at 50.8 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8976f8d5-bbaf-4c7f-839e-8d9e4fdbaec7))
-    (pin "2" (uuid b90f217b-635b-4357-a089-d6b605009b17))
+    (pin "1" (uuid c53fd92c-bd90-4323-a089-2b795216244f))
+    (pin "2" (uuid e8a8bc89-8f55-456a-8753-adda28e59668))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4237,7 +4237,7 @@
     (property "Datasheet" "" (at 168.91 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b76ce6e7-4249-468e-9472-dc8fbbf8be89))
+    (pin "1" (uuid 7161fe5b-db27-4c6b-a7cb-92409a4d636d))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4359,8 +4359,8 @@
     (property "LCSC Part" "C25744" (at 152.4 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c265572-af89-43df-92bd-a820ae9a9dbf))
-    (pin "2" (uuid 567e28f6-3f83-4182-a89f-e861fff89eb0))
+    (pin "1" (uuid ec6757b8-6e36-4135-b905-5dea8788dbad))
+    (pin "2" (uuid bb7c0c2f-a8b1-498c-8d1b-f5e993ba6b22))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
