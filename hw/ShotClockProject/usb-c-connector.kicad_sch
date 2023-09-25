@@ -1013,7 +1013,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-2SC6") (at 99.695 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4df186be-9262-44b4-ae2d-8d833e415a17)
-    (property "Reference" "U6" (at 104.775 89.535 0)
+    (property "Reference" "U10" (at 104.775 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USBLC6-2SC6" (at 100.965 107.95 0)
@@ -1040,7 +1040,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "U6") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -1077,7 +1077,7 @@
   (symbol (lib_id "USB4120-03-C_REVA:USB4120-03-C_REVA") (at 151.765 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 750b9248-1e18-4d62-bf77-54e0ef932445)
-    (property "Reference" "J10" (at 151.765 50.8 0)
+    (property "Reference" "J6" (at 151.765 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB4120-03-C_REVA" (at 151.765 53.34 0)
@@ -1130,7 +1130,7 @@
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/946767ba-005d-422c-bf1d-949982eca775"
-          (reference "J10") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
