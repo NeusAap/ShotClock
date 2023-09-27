@@ -997,6 +997,9 @@
   (junction (at 177.8 67.31) (diameter 0) (color 0 0 0 0)
     (uuid 0dca0a30-6317-424c-a510-61e64d6ff01e)
   )
+  (junction (at 29.21 121.285) (diameter 0) (color 0 0 0 0)
+    (uuid 1c50212b-f81e-4e75-9bcb-02e8878b4453)
+  )
   (junction (at 50.8 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 29ccb347-7ba5-48a1-bb12-a6a2c5555b57)
   )
@@ -1009,11 +1012,14 @@
   (junction (at 177.8 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 48f8868a-4eda-417d-ad0f-8708d15c137b)
   )
+  (junction (at 120.65 113.03) (diameter 0) (color 0 0 0 0)
+    (uuid 507b9db0-f83a-42a5-bd67-3ead38d86be9)
+  )
   (junction (at 152.4 67.31) (diameter 0) (color 0 0 0 0)
     (uuid 7e697f52-21d8-4b06-bfc2-81cf38f2b055)
   )
-  (junction (at 121.92 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid 9c085d84-4a5e-4627-81a7-4ef63650685b)
+  (junction (at 121.92 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid 9ba3679c-e0c9-453f-adec-a3d4eab0a9ff)
   )
   (junction (at 59.69 39.37) (diameter 0) (color 0 0 0 0)
     (uuid a0d5cc2d-19d7-4259-bd7d-db4211affe9c)
@@ -1027,14 +1033,11 @@
   (junction (at 66.04 111.76) (diameter 0) (color 0 0 0 0)
     (uuid a77cd2e9-f565-4423-8311-ab84eb23dd57)
   )
-  (junction (at 121.92 69.85) (diameter 0) (color 0 0 0 0)
-    (uuid a8b22071-af61-401b-89e6-0eecaedfaeb9)
-  )
   (junction (at 41.91 39.37) (diameter 0) (color 0 0 0 0)
     (uuid a9708093-b0fd-466b-8405-971d37525b9d)
   )
-  (junction (at 121.92 115.57) (diameter 0) (color 0 0 0 0)
-    (uuid c1c98603-6bd7-4e9b-adc9-3b1d520e475e)
+  (junction (at 120.65 115.57) (diameter 0) (color 0 0 0 0)
+    (uuid b8f49af6-c663-4bde-90e4-ea88714b0c73)
   )
   (junction (at 152.4 62.23) (diameter 0) (color 0 0 0 0)
     (uuid e87a2425-43a8-40d8-86a4-cd67c7cbf355)
@@ -1049,8 +1052,6 @@
     (uuid fc51f1de-03e6-4c2e-9d5f-22155d441212)
   )
 
-  (no_connect (at 29.21 119.38) (uuid 39171301-de2e-494a-9dd0-4f48d46e7fe2))
-  (no_connect (at 29.21 104.14) (uuid ac3e5ae8-6246-4c69-a027-473233d3a33a))
   (no_connect (at 160.02 115.57) (uuid fa59a6d4-dd27-4311-b763-02b80acc6d1e))
 
   (wire (pts (xy 66.04 109.22) (xy 66.04 111.76))
@@ -1065,6 +1066,10 @@
     (stroke (width 0) (type default))
     (uuid 0218ea75-90d9-4c59-84eb-36b3d3c19966)
   )
+  (wire (pts (xy 29.21 121.285) (xy 29.21 123.19))
+    (stroke (width 0) (type default))
+    (uuid 051d4d92-4238-4151-ac6a-9e85408dacd4)
+  )
   (wire (pts (xy 177.8 60.96) (xy 177.8 67.31))
     (stroke (width 0) (type default))
     (uuid 05bfc5d0-226e-4ea4-823c-a7c51a8d6f6f)
@@ -1077,13 +1082,17 @@
     (stroke (width 0) (type default))
     (uuid 07d8c64a-c25d-4e3c-9c2e-46dba9f02f56)
   )
-  (wire (pts (xy 114.3 115.57) (xy 121.92 115.57))
+  (wire (pts (xy 114.3 115.57) (xy 120.65 115.57))
     (stroke (width 0) (type default))
     (uuid 08fd6c66-7ec1-427a-9232-4815c6559f6c)
   )
   (wire (pts (xy 39.37 114.3) (xy 49.53 114.3))
     (stroke (width 0) (type default))
     (uuid 09416016-2d45-4cc5-a37d-3773464e457d)
+  )
+  (wire (pts (xy 129.54 69.85) (xy 132.08 69.85))
+    (stroke (width 0) (type default))
+    (uuid 0d3f3738-4a41-4dec-8484-c79628be4a01)
   )
   (wire (pts (xy 39.37 109.22) (xy 49.53 109.22))
     (stroke (width 0) (type default))
@@ -1113,9 +1122,9 @@
     (stroke (width 0) (type default))
     (uuid 251eb891-c866-4e2c-bdaf-b4e1a54e84ea)
   )
-  (wire (pts (xy 132.08 69.85) (xy 132.08 71.12))
+  (wire (pts (xy 121.92 69.85) (xy 124.46 69.85))
     (stroke (width 0) (type default))
-    (uuid 27c9685a-90a4-41d7-8f00-68a2131e47c9)
+    (uuid 2814d657-244a-459e-9c12-420a71e09b38)
   )
   (wire (pts (xy 31.75 48.26) (xy 31.75 52.07))
     (stroke (width 0) (type default))
@@ -1153,6 +1162,10 @@
     (stroke (width 0) (type default))
     (uuid 480c055d-3466-47cb-911c-d277868c3b70)
   )
+  (wire (pts (xy 24.765 121.285) (xy 29.21 121.285))
+    (stroke (width 0) (type default))
+    (uuid 4ad241fe-ee45-468c-a67c-315feffdd347)
+  )
   (wire (pts (xy 168.91 60.96) (xy 168.91 62.23))
     (stroke (width 0) (type default))
     (uuid 4ccd4c88-d415-41af-a619-f37567d642da)
@@ -1164,6 +1177,10 @@
   (wire (pts (xy 186.69 57.15) (xy 186.69 59.69))
     (stroke (width 0) (type default))
     (uuid 4e85399b-87e6-416e-ab29-7f3086f0ba24)
+  )
+  (wire (pts (xy 24.765 101.6) (xy 24.765 121.285))
+    (stroke (width 0) (type default))
+    (uuid 515b2c4b-4a4a-4ab6-b319-9d31d5c19e10)
   )
   (wire (pts (xy 160.02 118.11) (xy 171.45 118.11))
     (stroke (width 0) (type default))
@@ -1185,11 +1202,15 @@
     (stroke (width 0) (type default))
     (uuid 656cf321-2e6e-4fad-afe8-22b82e037bfc)
   )
+  (wire (pts (xy 29.21 101.6) (xy 24.765 101.6))
+    (stroke (width 0) (type default))
+    (uuid 668a9d42-a08e-4241-b7cf-502a9dc76560)
+  )
   (wire (pts (xy 179.07 67.31) (xy 177.8 67.31))
     (stroke (width 0) (type default))
     (uuid 69ea19e3-290a-46c8-aba4-4c8259de611f)
   )
-  (wire (pts (xy 121.92 113.03) (xy 124.46 113.03))
+  (wire (pts (xy 114.3 113.03) (xy 120.65 113.03))
     (stroke (width 0) (type default))
     (uuid 6ae40447-ecd7-43ab-bb3c-c4af6170bb48)
   )
@@ -1201,6 +1222,10 @@
     (stroke (width 0) (type default))
     (uuid 6ff0f987-dd5d-418f-8fee-2f70b41333d1)
   )
+  (wire (pts (xy 120.65 113.03) (xy 124.46 113.03))
+    (stroke (width 0) (type default))
+    (uuid 716ccc60-b755-48cf-8989-b3c20b5e9ae2)
+  )
   (wire (pts (xy 160.02 120.65) (xy 163.83 120.65))
     (stroke (width 0) (type default))
     (uuid 71ec9492-e730-4fe8-b9f0-af0cc5b7af69)
@@ -1208,10 +1233,6 @@
   (wire (pts (xy 233.68 55.88) (xy 233.68 58.42))
     (stroke (width 0) (type default))
     (uuid 765f3419-bc67-4bf6-8a3c-4b380c2517c4)
-  )
-  (wire (pts (xy 121.92 115.57) (xy 124.46 115.57))
-    (stroke (width 0) (type default))
-    (uuid 79287fe7-80ba-400f-8ff4-4c5581f0a421)
   )
   (wire (pts (xy 121.92 55.88) (xy 121.92 57.15))
     (stroke (width 0) (type default))
@@ -1229,9 +1250,9 @@
     (stroke (width 0) (type default))
     (uuid 8700fc49-1183-4008-97d7-01fe24b8f7e0)
   )
-  (wire (pts (xy 121.92 69.85) (xy 124.46 69.85))
+  (wire (pts (xy 132.08 69.85) (xy 132.08 76.2))
     (stroke (width 0) (type default))
-    (uuid 8ad5b85a-4463-4c6c-b2ba-630c6262cbbf)
+    (uuid 93f09ce7-9c12-404b-a3b1-c0c8c8f73d0d)
   )
   (wire (pts (xy 67.31 55.88) (xy 67.31 58.42))
     (stroke (width 0) (type default))
@@ -1273,9 +1294,9 @@
     (stroke (width 0) (type default))
     (uuid ab2c1cff-f237-4a2e-a473-638181972dc9)
   )
-  (wire (pts (xy 121.92 69.85) (xy 121.92 71.12))
+  (wire (pts (xy 120.65 115.57) (xy 124.46 115.57))
     (stroke (width 0) (type default))
-    (uuid ab33760a-7c46-447b-a4cb-48119a8d0156)
+    (uuid abb24228-55ad-485d-9a3b-32d95e3096c1)
   )
   (wire (pts (xy 143.51 74.93) (xy 143.51 76.2))
     (stroke (width 0) (type default))
@@ -1288,6 +1309,10 @@
   (wire (pts (xy 121.92 55.88) (xy 97.79 55.88))
     (stroke (width 0) (type default))
     (uuid b396cfe0-100f-46a1-99a5-75685f8d399a)
+  )
+  (wire (pts (xy 29.21 119.38) (xy 29.21 121.285))
+    (stroke (width 0) (type default))
+    (uuid b44f4137-6ee0-4516-8a73-52de5d9438d0)
   )
   (wire (pts (xy 143.51 67.31) (xy 143.51 62.23))
     (stroke (width 0) (type default))
@@ -1317,10 +1342,6 @@
     (stroke (width 0) (type default))
     (uuid ca46f0bb-5005-435b-b5e7-a2d1e72eb3b9)
   )
-  (wire (pts (xy 114.3 113.03) (xy 121.92 113.03))
-    (stroke (width 0) (type default))
-    (uuid cc29b2ee-b522-4f06-a6f6-a9308cc2c536)
-  )
   (wire (pts (xy 41.91 39.37) (xy 31.75 39.37))
     (stroke (width 0) (type default))
     (uuid cfffab51-a963-4385-b8b5-d0e877fe08f7)
@@ -1345,13 +1366,17 @@
     (stroke (width 0) (type default))
     (uuid dc00b45e-a371-4532-9835-d5385456efff)
   )
-  (wire (pts (xy 129.54 69.85) (xy 132.08 69.85))
+  (wire (pts (xy 29.21 104.14) (xy 29.21 101.6))
     (stroke (width 0) (type default))
-    (uuid e19c7963-6cfb-4cab-8e79-bd5c121bdb6f)
+    (uuid e02b80da-49c7-43a3-9204-d2234b684ad0)
   )
   (wire (pts (xy 121.92 53.34) (xy 121.92 55.88))
     (stroke (width 0) (type default))
     (uuid e1e27783-7227-46fa-8297-b5aa93a36693)
+  )
+  (wire (pts (xy 152.4 77.47) (xy 152.4 76.2))
+    (stroke (width 0) (type default))
+    (uuid e4c7444a-c3a1-41c6-89c4-cc789230f719)
   )
   (wire (pts (xy 31.75 40.64) (xy 31.75 39.37))
     (stroke (width 0) (type default))
@@ -1368,6 +1393,10 @@
   (wire (pts (xy 67.31 55.88) (xy 59.69 55.88))
     (stroke (width 0) (type default))
     (uuid ef44dd8e-0500-4674-9b26-a260cbf1e7e7)
+  )
+  (wire (pts (xy 121.92 69.85) (xy 121.92 76.2))
+    (stroke (width 0) (type default))
+    (uuid f0c1faa8-4238-40b6-a622-3a47874cf57d)
   )
   (wire (pts (xy 177.8 59.69) (xy 177.8 58.42))
     (stroke (width 0) (type default))
@@ -2715,10 +2744,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 23fea498-425e-4f27-a780-fbea2421c7e9)
   )
-  (label "IC_BAT" (at 98.425 55.88 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3d08daa7-9e72-4d2f-a1ed-97fdc27e4430)
-  )
   (label "IC_TEMP" (at 161.29 118.11 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5412ba7a-6b71-47bb-86c6-0ce50f95eae8)
@@ -2770,9 +2795,9 @@
     (property "LCSC Part" "C92159" (at 154.94 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c9d3216f-0d89-4af8-9a2a-5b6cbd31d260))
-    (pin "2" (uuid 68716878-dd7f-45d0-9fc6-ed3b77c384e5))
-    (pin "3" (uuid bfdc21de-e42d-4166-a3e6-c6a40e5617cb))
+    (pin "1" (uuid 24838f9a-ba73-404c-9de5-832985e1609a))
+    (pin "2" (uuid 4fbf10be-dc3d-42e1-85b4-d4d83f9428c4))
+    (pin "3" (uuid cdbf7f6f-5b89-4d7a-929c-bb5ac9df3626))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
@@ -2803,9 +2828,9 @@
     (property "LCSC Part" "C111113" (at 166.37 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5de7e971-78a6-45cc-8cbf-be5ac35e4b4b))
-    (pin "2" (uuid a51155dd-21f6-43c2-8ad4-a6d9b108f1cc))
-    (pin "3" (uuid 2d6358e5-0e6a-4fd0-8c52-8ce2ce26e952))
+    (pin "1" (uuid cd5491fa-5e64-4e13-b542-605178d87ce9))
+    (pin "2" (uuid 65b505dc-07d8-4ffa-ad06-6e2a51b1bcb7))
+    (pin "3" (uuid 4bfd231d-dc6f-4492-b287-e3578207bd00))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
@@ -2815,22 +2840,22 @@
     )
   )
 
-  (symbol (lib_id "power:-BATT") (at 132.08 71.12 180) (unit 1)
+  (symbol (lib_id "power:-BATT") (at 132.08 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bfa7e96-3031-450f-9b7f-e1c7e4599f9a)
-    (property "Reference" "#PWR023" (at 132.08 67.31 0)
+    (property "Reference" "#PWR023" (at 132.08 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "-BATT" (at 132.08 73.66 90)
+    (property "Value" "-BATT" (at 139.065 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 132.08 71.12 0)
+    (property "Footprint" "" (at 132.08 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 132.08 71.12 0)
+    (property "Datasheet" "" (at 132.08 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3e38e1a-d209-4082-93dd-e8bc80acf267))
+    (pin "1" (uuid 573732ed-08ff-43b9-9b1e-bfcaabc43f46))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2864,8 +2889,8 @@
     (property "LCSC Part" "C105637" (at 41.91 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid febcb8a7-5c27-46fd-9cd0-0c982a1a1368))
-    (pin "2" (uuid 65ab4bb4-5226-4b3c-ba0a-80f8c74af0df))
+    (pin "1" (uuid 31612c7e-4d1c-4d91-86a5-c91c278f1164))
+    (pin "2" (uuid c3d02f0e-b144-4cf4-bb2a-10c75aa2f3c4))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2893,7 +2918,7 @@
     (property "Datasheet" "" (at 118.11 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 943b6c7f-813d-4e91-a9cc-adc72e04e064))
+    (pin "1" (uuid c4d0f8b6-f065-457b-b30a-6a31d555dbd4))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2927,8 +2952,8 @@
     (property "LCSC Part" "C105637" (at 152.4 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f9484af-7a7f-4879-a6e9-ff48915ea67e))
-    (pin "2" (uuid ab308986-94ee-4ad8-9997-bdc63ef235e8))
+    (pin "1" (uuid 229fe5a8-c55c-4386-8015-a3bff1c62ce9))
+    (pin "2" (uuid d5dbe25f-3352-4d16-adcb-3bad175a7562))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2956,7 +2981,7 @@
     (property "Datasheet" "" (at 49.53 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3863a06-84fa-4bda-a3ba-d494fc0f6bdc))
+    (pin "1" (uuid 3c2768e9-533d-4b84-8194-df362b2103ab))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -2969,22 +2994,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 121.92 71.12 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 121.92 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b57759c-4dd4-4314-86e1-ba655333b004)
-    (property "Reference" "#PWR024" (at 121.92 77.47 0)
+    (property "Reference" "#PWR024" (at 121.92 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 121.92 76.2 0)
+    (property "Value" "GND" (at 121.92 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 121.92 71.12 0)
+    (property "Footprint" "" (at 121.92 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 121.92 71.12 0)
+    (property "Datasheet" "" (at 121.92 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9285251-8af9-432a-a801-e9d780c5052d))
+    (pin "1" (uuid 537a034c-985b-4fd0-a8e8-90d6a0670ea7))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3046,8 +3071,8 @@
     (property "LCSC Part" "C25744" (at 177.8 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a384e10e-4e93-471c-99e2-678fe5caf6d4))
-    (pin "2" (uuid 79f793de-2f37-412d-8acf-1feca27536ac))
+    (pin "1" (uuid 3335bfa2-47db-4a8b-a5a6-86dcf652d0ce))
+    (pin "2" (uuid 6b4583f4-ed87-494f-89ad-c8063a416156))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3055,6 +3080,31 @@
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "R20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 120.65 115.57 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2df48e93-9727-44a6-9256-751910c74c4c)
+    (property "Reference" "#FLG06" (at 120.65 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 120.65 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 120.65 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 120.65 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fad03689-9921-4a42-a15d-c3a9a171e2ee))
+    (instances
+      (project "ShotClockProject"
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
+          (reference "#FLG06") (unit 1)
         )
       )
     )
@@ -3087,11 +3137,11 @@
     (property "LCSC Part" "C160403" (at 34.29 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6484ce4-cbf8-4d01-b32c-cff001d71fa5))
-    (pin "2" (uuid 9546a820-d63d-4dfb-95b7-cc7339de824a))
-    (pin "3" (uuid 2c2a08aa-8b5d-4241-91f7-86ef407890ad))
-    (pin "4" (uuid 955c6719-543a-48d1-b04c-dfce32a878cf))
-    (pin "5" (uuid ee80ff49-9460-467b-80b3-c4c797d172ee))
+    (pin "1" (uuid d634cb96-e302-41c9-a8fa-1747d355a1f4))
+    (pin "2" (uuid 337dbc6a-0f02-410e-9cc4-dad0e8f447bd))
+    (pin "3" (uuid d842b46e-8b45-4ecb-958b-34cd2d45b71c))
+    (pin "4" (uuid 13e1724d-cffa-4c8d-a50c-bc8aa32f5b10))
+    (pin "5" (uuid a8070be7-96ed-40c2-be84-c6a276351f8c))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
@@ -3116,7 +3166,7 @@
     (property "Datasheet" "" (at 152.4 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 341c7417-1ae1-4040-b7de-c6a1cba79825))
+    (pin "1" (uuid 2c56b180-cade-470d-9db0-ea75f86ad0c8))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3150,9 +3200,9 @@
     (property "LCSC Part" "C33903" (at 186.69 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d9ed041-9c17-46e8-8c70-794cbba0d913))
-    (pin "2" (uuid 0aec666a-7dfd-469e-b04e-2216279bf804))
-    (pin "3" (uuid a3f64d53-de63-40ac-8ce4-cea20a5156ae))
+    (pin "1" (uuid df993e53-9b7a-4bc6-b39e-f0b287fd024d))
+    (pin "2" (uuid 40fd8c5a-96e1-4fbf-9d39-f3bddb94c74f))
+    (pin "3" (uuid 2f9b8d08-bbfb-406f-8c9b-6464687c667d))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3180,7 +3230,7 @@
     (property "Datasheet" "" (at 31.75 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 842b2416-2980-457c-9fce-e9bd8509c195))
+    (pin "1" (uuid a321e60b-2bdc-425e-bf72-8fa1914fd1e3))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3193,22 +3243,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 152.4 76.2 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 152.4 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e6ffe80-e172-43d5-843c-57e751c6e293)
-    (property "Reference" "#PWR011" (at 152.4 82.55 0)
+    (property "Reference" "#PWR011" (at 152.4 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 152.4 81.28 0)
+    (property "Value" "GND" (at 152.4 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 152.4 76.2 0)
+    (property "Footprint" "" (at 152.4 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 152.4 76.2 0)
+    (property "Datasheet" "" (at 152.4 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4bc6cf4a-eebb-4448-8270-3d65da6eb5cb))
+    (pin "1" (uuid cc7bc0b3-eb70-4c57-bd09-9abe5ac1dc3c))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3242,8 +3292,8 @@
     (property "LCSC Part" "C72043" (at 41.91 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8a1b3ffd-16c6-4653-8125-5a819e2cba9a))
-    (pin "2" (uuid 40ec1384-4d6b-4376-939c-493d0f92db89))
+    (pin "1" (uuid 0a1f42fa-0b3d-41fa-8aea-fa29f91aae46))
+    (pin "2" (uuid 2e536117-fb15-4e38-93fe-1513c99d9804))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3271,7 +3321,7 @@
     (property "Datasheet" "" (at 114.3 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cbf69a36-8f1a-4778-a2ef-45244a32bb25))
+    (pin "1" (uuid 48e45670-9bac-47c5-a8e6-33e55ecd1ba2))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3299,7 +3349,7 @@
     (property "Datasheet" "" (at 66.04 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b396db00-ffdd-411b-8cb9-31ba51bba75b))
+    (pin "1" (uuid e893a131-5cba-4fd8-8ab7-14cf26013b76))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3327,7 +3377,7 @@
     (property "Datasheet" "" (at 82.55 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d6d713d-970b-4606-87f8-3904b6f23c2d))
+    (pin "1" (uuid 041f70a2-83f8-45e4-a8e9-cead29838b08))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3361,8 +3411,8 @@
     (property "LCSC Part" "C225269" (at 109.22 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a5472406-4510-44e6-8fd0-f2f305925fa4))
-    (pin "2" (uuid 41ea2d84-2e68-41cb-961b-054d629dca80))
+    (pin "1" (uuid eaf68b90-6f0e-4ad9-9dba-3b682941cfb5))
+    (pin "2" (uuid 81c33780-43a2-4402-9d94-835749a7f5e6))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
@@ -3387,7 +3437,7 @@
     (property "Datasheet" "" (at 59.69 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8582ed9f-868a-480c-84ef-d10b9c8f4574))
+    (pin "1" (uuid 8c520293-0010-4ca0-bcb7-2f65e84bd54e))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3421,8 +3471,8 @@
     (property "LCSC Part" "C96446" (at 121.92 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41e10e38-90b5-4f65-9abd-9fbcbdee6247))
-    (pin "2" (uuid aed0789b-c336-428a-8204-83035531295c))
+    (pin "1" (uuid 79605631-abf3-4536-817f-d8f294fe00b9))
+    (pin "2" (uuid 8d27eedc-ac6e-4fa0-b1f1-0ebd4069e6ca))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3430,38 +3480,6 @@
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "C14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:NetTie_2") (at 127 69.85 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 81a09951-a11a-41e5-9eb3-d5c6f3c631b4)
-    (property "Reference" "NT1" (at 127 66.04 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "NetTie_2" (at 127 68.58 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm" (at 127 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 127 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "" (at 127 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "" (at 127 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2aaba442-2b14-4952-bcd9-de54d7d910a7))
-    (pin "2" (uuid ca720073-114c-4715-b4a2-037e3eb572c5))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
-          (reference "NT1") (unit 1)
         )
       )
     )
@@ -3488,8 +3506,8 @@
     (property "LCSC Part" "C852935" (at 66.04 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4176ba83-03ac-40c7-8163-95d044a1c984))
-    (pin "2" (uuid 0f967c26-b768-4961-b6cb-d6b55e817a3f))
+    (pin "1" (uuid 2939aff2-d432-4061-badf-ceaae4fa2798))
+    (pin "2" (uuid 7858ca20-d0b1-4843-ac3e-0e8afbda7d06))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3523,8 +3541,8 @@
     (property "LCSC Part" "C27147" (at 59.69 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 574ac91d-80ad-4100-8045-c08d1f45eabc))
-    (pin "2" (uuid dba81146-a83d-45b6-b520-4a72343826df))
+    (pin "1" (uuid bbace779-8309-40a2-a3c4-c67608751e74))
+    (pin "2" (uuid d94685d9-67f2-42d1-a88b-099f603f48e0))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3558,8 +3576,8 @@
     (property "LCSC Part" "C57112" (at 143.51 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52290500-d524-44be-a565-aa739e9c205c))
-    (pin "2" (uuid 132fe448-1658-4de1-a6de-2a050166b094))
+    (pin "1" (uuid 543fbfbb-5bc6-4d6d-b64e-2991c300f10b))
+    (pin "2" (uuid 58c45dbb-d1a5-4d8d-aab9-ea345cef383c))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3587,7 +3605,7 @@
     (property "Datasheet" "" (at 163.83 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75c59881-3d14-4b5c-8fbb-862ef4dfea42))
+    (pin "1" (uuid 525d47b8-19f3-42f7-bff7-d980a964d147))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3621,8 +3639,8 @@
     (property "LCSC Part" "C25862" (at 114.3 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e442b3a3-4197-47eb-8d38-a7ad38d7589d))
-    (pin "2" (uuid 4c9fff65-bcea-4b39-ad36-bac573366e57))
+    (pin "1" (uuid 2dd4164c-4aa4-431c-8b5c-850dde5e2818))
+    (pin "2" (uuid 6af26e52-94a8-4ef1-8954-6fc5c0582511))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3650,7 +3668,7 @@
     (property "Datasheet" "" (at 124.46 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cb42e8b3-bdb9-4298-a1bf-2c3587eb9c5b))
+    (pin "1" (uuid 5890be18-f11d-4629-bbaa-0864ea647178))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3721,8 +3739,8 @@
     (property "LCSC Part" "C25741" (at 177.8 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae11aee1-7128-49b5-8ebb-339a53e5dae6))
-    (pin "2" (uuid 1c93f397-548c-496a-be23-1bb2df07164b))
+    (pin "1" (uuid a0841aea-56bf-415c-9576-437a1c730dc0))
+    (pin "2" (uuid 8832f6d4-19af-4699-98ee-f175dd46ac81))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3756,8 +3774,8 @@
     (property "LCSC Part" "C25900" (at 66.04 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f637be3-bb98-4458-8f47-fd5fa29c31e0))
-    (pin "2" (uuid 07cd5f5d-fb40-43ce-80a8-ef7fbbacf45d))
+    (pin "1" (uuid de031ea3-1d5e-40cf-b4a7-34fd269b7721))
+    (pin "2" (uuid 5b3e1d9f-fd22-44d1-9a88-f25ac484f065))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3791,8 +3809,8 @@
     (property "LCSC Part" "C128250" (at 50.8 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12ba30e8-517f-4763-aafc-b23c24fe7a2b))
-    (pin "2" (uuid 1503873f-0503-4fc4-a4e8-6d62a5ead53f))
+    (pin "1" (uuid 4ad459c9-0783-4ced-a2ca-f5910ec1743f))
+    (pin "2" (uuid aff44349-d2f3-4e84-9b9a-286b38992706))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3820,7 +3838,7 @@
     (property "Datasheet" "" (at 186.69 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a0c8c256-08ef-48a2-a807-8a6fa8a0a283))
+    (pin "1" (uuid 9ed1fff8-4fd5-44a4-ae48-67914795ae40))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3875,15 +3893,15 @@
     (property "LCSC Part" "C725790" (at 97.79 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5bfa186d-5b51-4552-9481-f8a5c6460602))
-    (pin "2" (uuid 2cb2e771-5b10-44a3-b5f9-934ba8cf5997))
-    (pin "3" (uuid 495443fe-27a0-48b7-9369-53695fdf160f))
-    (pin "4" (uuid aa0e8b3f-5683-40b6-9585-9ace39f07ca6))
-    (pin "5" (uuid c076a62e-e71e-4bba-992a-8ce399723d4f))
-    (pin "6" (uuid 2efbe1a2-f8a1-4099-8c0b-4f6c44db7ef3))
-    (pin "7" (uuid d54928a8-3057-483c-9115-cab04b545b02))
-    (pin "8" (uuid 9120fbb1-b649-4022-b97e-00c40f9f40a1))
-    (pin "9" (uuid 79953f78-5335-4300-8172-18db977cc5ef))
+    (pin "1" (uuid e4504376-1309-41d2-86d5-ed13cb6a3ef9))
+    (pin "2" (uuid b26da3f2-e2f1-4aca-8266-377192c583c5))
+    (pin "3" (uuid 265f4a5f-5143-4887-944f-eaf0db9bcdb7))
+    (pin "4" (uuid 94dc8079-272d-4f57-899e-08c4e9833359))
+    (pin "5" (uuid f88418f9-db3d-49b5-974a-b3c5a60f7db7))
+    (pin "6" (uuid f775f46e-4ed3-4166-b825-fc678a1eb847))
+    (pin "7" (uuid e545443d-52b7-4151-aad7-02f03a78eb57))
+    (pin "8" (uuid 1c4345f2-95bd-400d-802f-ead831555ff1))
+    (pin "9" (uuid 16ead9e4-6ce1-4281-a291-aa9f2f11032f))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3939,7 +3957,7 @@
     (property "Datasheet" "" (at 49.53 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28290337-196c-47e5-89a4-6d436133978c))
+    (pin "1" (uuid 9574313c-41d7-442b-8453-182984e82981))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -3999,7 +4017,7 @@
     (property "Datasheet" "" (at 121.92 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 50e2e1c0-ca54-4060-8928-576f187fc902))
+    (pin "1" (uuid ccae40be-aa16-4500-85b2-f3b90a10491c))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4033,8 +4051,8 @@
     (property "LCSC Part" "C96446" (at 31.75 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f1369aa-c992-4ae5-8e70-b875697191cd))
-    (pin "2" (uuid 72a92b6d-8fc0-49b6-8d3b-8c97ef8e4e7a))
+    (pin "1" (uuid e3ec8ba1-1f7f-4d44-a0a6-a3e34da3d563))
+    (pin "2" (uuid 0be35185-2622-4ccd-9c7f-a193cab91989))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4042,6 +4060,31 @@
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "C13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 120.65 113.03 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d65b152e-098d-4431-8cb2-5f06bf0419a0)
+    (property "Reference" "#FLG05" (at 120.65 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 120.65 107.95 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 120.65 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 120.65 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e917e44f-f329-4f54-9193-ee326f4e7770))
+    (instances
+      (project "ShotClockProject"
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
+          (reference "#FLG05") (unit 1)
         )
       )
     )
@@ -4068,8 +4111,8 @@
     (property "LCSC Part" "C105637" (at 168.91 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b2db068c-cfa6-4ea2-b93d-3590280143ae))
-    (pin "2" (uuid 2d704fa2-3ccd-4a2f-9995-7388c6cfd0d6))
+    (pin "1" (uuid 5cb39fad-1754-4a72-93c6-109683d4abc2))
+    (pin "2" (uuid 660402e2-1ca9-4c84-95ea-bfe19b590f7c))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4077,6 +4120,34 @@
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "R15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 29.21 123.19 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d816e446-efc1-4b38-9c71-b16271568987)
+    (property "Reference" "#PWR021" (at 29.21 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 29.21 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 29.21 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 29.21 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 48e6a8b7-128e-42a8-9eae-8d2e341c58cd))
+    (instances
+      (project "ShotClockProject"
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+          (reference "#PWR021") (unit 1)
+        )
+        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -4097,7 +4168,7 @@
     (property "Datasheet" "" (at 177.8 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c21147c0-cea4-466c-b487-db4e3ec7643a))
+    (pin "1" (uuid 0b072248-70e7-4bce-bcfb-f578efd06240))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4131,9 +4202,9 @@
     (property "LCSC Part" "C111113" (at 184.15 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b0e7b52-3a2e-4470-833d-a9e9709c3ed1))
-    (pin "2" (uuid 2a4fa255-5f46-4684-b358-f2b3b9ec2c40))
-    (pin "3" (uuid c008dcf3-b597-4059-9c70-481039f8d52f))
+    (pin "1" (uuid 0d307cad-a9a1-4c41-b367-63f13dd1e434))
+    (pin "2" (uuid c4ff6a48-662c-430e-8513-0818813caa45))
+    (pin "3" (uuid b5e1b56b-0813-4f39-a4ed-406e58d04184))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
@@ -4164,8 +4235,8 @@
     (property "LCSC Part" "C105637" (at 50.8 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c53fd92c-bd90-4323-a089-2b795216244f))
-    (pin "2" (uuid e8a8bc89-8f55-456a-8753-adda28e59668))
+    (pin "1" (uuid c2955585-9c68-46c3-850a-cf18719991ff))
+    (pin "2" (uuid e0460f7b-63f0-4d4b-b2f7-36ca1026573e))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4193,7 +4264,7 @@
     (property "Datasheet" "" (at 124.46 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e44e160d-e3a0-4f79-8c33-1bd30b6732a8))
+    (pin "1" (uuid c955ea92-d73a-457e-a7e9-c6b9b3ffaad3))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4201,34 +4272,6 @@
         )
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
           (reference "#PWR042") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 121.92 115.57 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e74bb7a6-6dc2-440b-8fa4-03847d18cafe)
-    (property "Reference" "#FLG05" (at 121.92 117.475 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 121.92 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 121.92 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 121.92 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a0df55c7-154a-4a3a-8e96-4806b97c6402))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
-          (reference "#FLG05") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/17367eb9-0f4d-4017-b1ca-d50430410a5d"
-          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -4249,7 +4292,7 @@
     (property "Datasheet" "" (at 168.91 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7161fe5b-db27-4c6b-a7cb-92409a4d636d))
+    (pin "1" (uuid 6b6ce623-9fdd-47ee-a16c-9818201641c5))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4262,26 +4305,27 @@
     )
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 121.92 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ee479a15-6f59-4cba-bc38-8364020c1320)
-    (property "Reference" "#FLG04" (at 121.92 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 121.92 107.95 0)
+  (symbol (lib_id "Device:NetTie_2") (at 127 69.85 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid f19e6e83-7593-4f7f-80e6-1512a1892b30)
+    (property "Reference" "NT1" (at 127 71.755 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 121.92 113.03 0)
+    (property "Value" "NetTie_2" (at 127 74.295 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 127 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 113.03 0)
+    (property "Datasheet" "~" (at 127 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5acf84ff-4f35-41d3-b321-6a79f1ae7ccb))
+    (pin "1" (uuid 96bc2046-db6c-4899-98d4-a2658519c53c))
+    (pin "2" (uuid ecc75ad0-87be-404e-b418-db14fc4edd2d))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
-          (reference "#FLG04") (unit 1)
+          (reference "NT1") (unit 1)
         )
       )
     )
@@ -4337,7 +4381,7 @@
     (property "Datasheet" "" (at 66.04 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d62543b4-4af1-4dba-a287-0397d5503bcd))
+    (pin "1" (uuid 83f7af26-b151-4304-98f1-15dcb78603fe))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
@@ -4371,8 +4415,8 @@
     (property "LCSC Part" "C25744" (at 152.4 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec6757b8-6e36-4135-b905-5dea8788dbad))
-    (pin "2" (uuid bb7c0c2f-a8b1-498c-8d1b-f5e993ba6b22))
+    (pin "1" (uuid f3efa71e-9bfb-4a5a-a161-f26f84ddc743))
+    (pin "2" (uuid 987f71c0-8abc-4074-bfe7-1e56e505aee0))
     (instances
       (project "ShotClockProject"
         (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"

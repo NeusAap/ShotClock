@@ -59,6 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define BOOT0_IN_Pin GPIO_PIN_13
 #define BOOT0_IN_GPIO_Port GPIOC
+#define ADC_BATT_IN_Pin GPIO_PIN_0
+#define ADC_BATT_IN_GPIO_Port GPIOA
 #define BUTTON1_IN_Pin GPIO_PIN_4
 #define BUTTON1_IN_GPIO_Port GPIOA
 #define BUTTON2_IN_Pin GPIO_PIN_5

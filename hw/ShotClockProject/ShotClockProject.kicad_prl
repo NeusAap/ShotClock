@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "ff9ffff_fffffffd",
-    "zone_display_mode": 0
+    "visible_layers": "ff9ffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "ShotClockProject.kicad_prl",
