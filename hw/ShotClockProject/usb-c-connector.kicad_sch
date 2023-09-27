@@ -1011,7 +1011,7 @@
   )
 
   (symbol (lib_id "Power_Protection:USBLC6-2SC6") (at 99.695 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board no) (dnp yes)
     (uuid 4df186be-9262-44b4-ae2d-8d833e415a17)
     (property "Reference" "U10" (at 104.775 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
