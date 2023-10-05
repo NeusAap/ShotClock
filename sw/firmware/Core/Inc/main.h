@@ -71,8 +71,6 @@ void Error_Handler(void);
 #define BUTTON3_IN_GPIO_Port GPIOB
 #define ORANGE_LED_Pin GPIO_PIN_13
 #define ORANGE_LED_GPIO_Port GPIOB
-#define PWM_BUZZER_Pin GPIO_PIN_9
-#define PWM_BUZZER_GPIO_Port GPIOA
 #define TLC59116_RESETn_Pin GPIO_PIN_7
 #define TLC59116_RESETn_GPIO_Port GPIOC
 
