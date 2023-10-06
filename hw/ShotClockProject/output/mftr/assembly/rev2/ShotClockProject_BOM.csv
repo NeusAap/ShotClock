@@ -1,0 +1,51 @@
+Comment,Designator,Footprint,LCSC Part #
+CY-SMD-9019-3040 ,BUZZER1,BUZ-SMD_L9.0-W9.0-P8.00-LS9.3_CY,C968734
+10n Unpolarized capacitor,"C1,C16",C_0402_1005Metric,C15195
+1u Unpolarized capacitor,"C2,C3,C9,C12",C_0402_1005Metric,C52923
+4.7u Unpolarized capacitor,C4,C_0402_1005Metric,C23733
+100n Unpolarized capacitor,"C5,C6,C10,C11,C15,C27,C28,C29",C_0402_1005Metric,C1525
+6p Unpolarized capacitor,"C7,C8",C_0402_1005Metric,C1575
+10u Unpolarized capacitor,"C13,C14",C_0402_1005Metric,C15525
+2.2p Unpolarized capacitor,"C17,C22",C_0402_1005Metric,C1559
+10u Unpolarized capacitor,"C18,C19,C20,C23,C24,C25",C_0603_1608Metric,C96446
+0.1u Unpolarized capacitor,"C21,C26",C_0402_1005Metric,C1525
+Orange LED Light emitting diode,D1,LED_0603_1608Metric,C264451
+G_LED Light emitting diode,"D2,D4,D5",LED_0603_1608Metric,C72043
+R_LED Light emitting diode,D3,LED_0603_1608Metric,C128250
+"1N4148 100V 0.15A standard switching diode, DO-35",D6,D_SOD-323,C2128
+120R Ferrite bead,FB1,L_0603_1608Metric,C127301
+TP4056-42-ESOP8_Rearanged PMIC - Battery Management ESOP-8 RoHS,IC1,Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm,C725790
+"Conn_01x06_Pin Generic connector, single row, 01x06, script generated",J1,PinHeader_1x06_P2.54mm_Horizontal,C56816
+"Conn_ST_STDC14 ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART",J2,PinHeader_2x07_P1.27mm_Vertical_SMD,C3975190
+SM03B-SRSS-TB(LF)(SN)(P) ,J3,CONN-SMD_SM03B-SRSS-TB-LF-SN-P,C160403
+"Conn_01x02_Pin Generic connector, single row, 01x02, script generated","J4,J7",PinHeader_1x02_P2.54mm_Horizontal,C492410
+USB4120-03-C_REVA ,J6,GCT_USB4120-03-C_REVA_With3DModel,C5187468
+2.2uH Inductor,"L1,L2",L_Sunlord_SWPA3012S,C404494
+"Q_PMOS_SGD P-MOSFET transistor, source/gate/drain",Q1,TO-263-2,C33903
+"Q_NPN_BCE NPN transistor, base/collector/emitter","Q2,Q3,Q4",SOT-23,C111113
+0R Resistor,"R1,R2,R3,R4",R_0402_1005Metric,C17168
+1.5k Resistor,"R5,R6",R_0402_1005Metric,C25867
+100R Resistor,"R7,R9,R23,R27",R_0402_1005Metric,C25076
+10k Resistor,"R8,R19,R20,R31,R32,R33,R38,R39",R_0402_1005Metric,C25744
+0.4R Resistor,R10,R_0402_1005Metric,C27147
+100k Resistor,"R11,R16,R17",R_0402_1005Metric,C25741
+1k Resistor,"R12,R13,R14,R15,R35",R_0402_1005Metric,C105637
+1k2 Resistor,R18,R_0402_1005Metric,C25862
+4780R Resistor,R21,R_0402_1005Metric,C25900
+86k6 Resistor,R22,R_0402_1005Metric,C852935
+1M Resistor,"R24,R28",R_0402_1005Metric,C144787
+178k Resistor,R25,R_0402_1005Metric,C185459
+1k5 Resistor,"R26,R30",R_0402_1005Metric,C25867
+110k Resistor,R29,R_0402_1005Metric,C25745
+300R Resistor,R34,R_0402_1005Metric,C25102
+5k1 Resistor,"R36,R37",R_0402_1005Metric,C25905
+TK-6580S-1 ,SW1,SW-SMD_TK-6580S-1,C528774
+"SW_SPDT Switch, single pole double throw",SW2,SW_SPDT_PCM12_Upwards,C500057
+TK-6580S-2 ,"SW3,SW4,SW5",SW-SMD_TK-6580S-2,C528775
+TestPoint test point,"TP2,TP5",TestPoint_Pad_D1.0mm,
+"STM32G070CBTx STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 36KB RAM, 64 MHz, 2.0-3.6V, 43 GPIO, LQFP48",U1,LQFP-48_7x7mm_P0.5mm,C529338
+"LD39015M33R 150mA low quiescent current low noise voltage regulator, Fixed Output 3.3V, SOT-23-5",U2,SOT-23-5,C2798212
+"TPS63000 Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 3.3V Output Voltage, VSON-10","U3,U4",Texas_DRC0010J_Altered,C24966
+M74HC14YRM13TR ,U5,SOIC-14_3.9x8.7mm_P1.27mm,C157450
+S6B-PH-K-S-(LF)(SN) ,"U6,U7,U8,U9",CONN-TH_6P-P2.00_S6B-PH-K-S-LF-SN,C157920
+"16MHz Four pin crystal, GND on pins 2 and 4",Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,C112972

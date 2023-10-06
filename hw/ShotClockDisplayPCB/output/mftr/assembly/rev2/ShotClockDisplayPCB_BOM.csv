@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC Part #
+100p Unpolarized capacitor,C1,C_0402_1005Metric,C106200
+10u Unpolarized capacitor,C2,C_0402_1005Metric,C315248
+"Conn_01x02_Pin Generic connector, single row, 01x02, script generated","J1,J2,J3,J4",PinHeader_1x02_P2.54mm_Horizontal,C492410
+"Conn_01x05_Socket Generic connector, single row, 01x05, script generated","J5,J6,J7,J8",PinSocket_1x05_P2.54mm_Vertical,C2897368
+10k Resistor,"R1,R2,R3,R4",R_0402_1005Metric,C25744
+100r Resistor,"R5,R6",R_1210_3225Metric,C2933827
+1k Resistor,R7,R_0402_1005Metric,C11702
+S6B-PH-K-S-(LF)(SN) ,U1,CONN-TH_6P-P2.00_S6B-PH-K-S-LF-SN,C157920
+TLC59116IRHBR ,U2,PG-VQFN-32_L5.0-W5.0-P0.50-BL-EP3.6,C575579
