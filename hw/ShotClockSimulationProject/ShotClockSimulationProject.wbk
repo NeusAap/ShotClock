@@ -1,0 +1,23 @@
+version 2
+1
+9
+.tran 1m 1000m{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+6
+1
+V(+BATT)
+ 
+1
+V(/PGate)
+ 
+1
+V(/Q2_B)
+ 
+1
+V(/Q3_B)
+ 
+1
+V(/out)
+ 
+1
+V(VBUS)
+ 

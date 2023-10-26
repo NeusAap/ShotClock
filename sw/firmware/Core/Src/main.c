@@ -26,7 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "cli_setup.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -96,6 +96,8 @@ int main(void)
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
 
+  setupCli();
+  // int delay_time = 50;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -105,6 +107,12 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+      embeddedCliProcess(getCliPointer());
+      HAL_Delay(10);
+      /* HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_SET);
+      HAL_Delay (delay_time);
+      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_RESET);
+      HAL_Delay (delay_time); */
   }
   /* USER CODE END 3 */
 }
