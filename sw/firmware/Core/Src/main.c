@@ -31,7 +31,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin);
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -97,6 +97,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   setupCli();
+  // int32_t CH2_DC = 0;
+
   // int delay_time = 50;
   /* USER CODE END 2 */
 
@@ -109,6 +111,18 @@ int main(void)
     /* USER CODE BEGIN 3 */
       embeddedCliProcess(getCliPointer());
       HAL_Delay(10);
+      /*while(CH2_DC < 65535)
+      {
+          TIM1->CCR2 = CH2_DC;
+          CH2_DC += 700;
+          HAL_Delay(1);
+      }
+      while(CH2_DC > 0)
+      {
+          TIM1->CCR2 = CH2_DC;
+          CH2_DC -= 700;
+          HAL_Delay(1);
+      }*/
       /* HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_SET);
       HAL_Delay (delay_time);
       HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_RESET);
@@ -159,6 +173,9 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 
+void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin)  {
+    cli_printf("Clicked with PIN: %u", GPIO_Pin);
+}
 /* USER CODE END 4 */
 
 /**

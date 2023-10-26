@@ -9,6 +9,7 @@
 #include <strings.h>
 
 #include "main.h"
+#include "tim.h"
 #include "cli_setup.h"
 #include "cli_binding.h"
 
@@ -53,6 +54,27 @@ void onSetLed(EmbeddedCli *cli, char *args, void *context) {
         cli_printf("usage: set-led [led-num] [off/on]");
 }
 
+void onBuzzer(EmbeddedCli *cli, char *args, void *context) {
+    const char *arg1 = embeddedCliGetToken(args, 1);
+    const char *arg2 = embeddedCliGetToken(args, 2);
+    if (arg1 == NULL || arg2 != NULL) {
+        cli_printf("usage: buzzer [off/on]");
+        return;
+    }
+    if (strcasecmp(arg1, "on") == 0){
+        cli_printf("Enable buzzer");
+        HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+        TIM1->CCR2 = 20000;
+        return;
+    }else if (strcasecmp(arg1, "off") == 0){
+        cli_printf("Disable buzzer");
+        HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
+        return;
+    }
+    // Make sure to check if 'args' != NULL, printf's '%s' formatting does not like a null pointer.
+}
+
+
 void initCliBinding() {
     // Define bindings as local variables, so we don't waste static memory
 
@@ -74,7 +96,7 @@ void initCliBinding() {
             .binding = onGetLed
     };
 
-    // Command binding for the led command
+    // Command binding for the set led command
     CliCommandBinding set_led_binding = {
             .name = "set-led",
             .help = "Set LEDs on/off",
@@ -83,8 +105,17 @@ void initCliBinding() {
             .binding = onSetLed
     };
 
+    CliCommandBinding set_buzzer_binding = {
+            .name = "buzzer",
+            .help = "Set buzzer on/off",
+            .tokenizeArgs = true,
+            .context = NULL,
+            .binding = onBuzzer
+    };
+
     EmbeddedCli *cli = getCliPointer();
     embeddedCliAddBinding(cli, clear_binding);
     embeddedCliAddBinding(cli, get_led_binding);
     embeddedCliAddBinding(cli, set_led_binding);
+    embeddedCliAddBinding(cli, set_buzzer_binding);
 }
