@@ -63,8 +63,8 @@ void onBuzzer(EmbeddedCli *cli, char *args, void *context) {
     }
     if (strcasecmp(arg1, "on") == 0){
         cli_printf("Enable buzzer");
+        TIM1->CCR2 = 50;
         HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
-        TIM1->CCR2 = 20000;
         return;
     }else if (strcasecmp(arg1, "off") == 0){
         cli_printf("Disable buzzer");

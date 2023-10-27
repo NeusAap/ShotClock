@@ -100,6 +100,7 @@ int main(void)
   // int32_t CH2_DC = 0;
 
   // int delay_time = 50;
+  uint8_t TX_Buffer [] = "C" ;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -110,23 +111,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
       embeddedCliProcess(getCliPointer());
-      HAL_Delay(10);
-      /*while(CH2_DC < 65535)
-      {
-          TIM1->CCR2 = CH2_DC;
-          CH2_DC += 700;
-          HAL_Delay(1);
-      }
-      while(CH2_DC > 0)
-      {
-          TIM1->CCR2 = CH2_DC;
-          CH2_DC -= 700;
-          HAL_Delay(1);
-      }*/
-      /* HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_SET);
-      HAL_Delay (delay_time);
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_RESET);
-      HAL_Delay (delay_time); */
+      HAL_Delay(1);
+      HAL_I2C_Master_Transmit(&hi2c2,10,TX_Buffer,1,1000); //Sending in Blocking mode
+
   }
   /* USER CODE END 3 */
 }
@@ -151,7 +138,12 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSIDiv = RCC_HSI_DIV1;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV1;
+  RCC_OscInitStruct.PLL.PLLN = 8;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -161,11 +153,11 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
   {
     Error_Handler();
   }
@@ -175,6 +167,7 @@ void SystemClock_Config(void)
 
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin)  {
     cli_printf("Clicked with PIN: %u", GPIO_Pin);
+    HAL_GPIO_TogglePin(ORANGE_LED_GPIO_Port, ORANGE_LED_Pin);
 }
 /* USER CODE END 4 */
 
