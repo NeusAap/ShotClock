@@ -54,7 +54,7 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(ORANGE_LED_GPIO_Port, ORANGE_LED_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(TLC59116_RESETn_GPIO_Port, TLC59116_RESETn_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(TLC59116_RESETn_GPIO_Port, TLC59116_RESETn_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin : PtPin */
   GPIO_InitStruct.Pin = BOOT0_IN_Pin;

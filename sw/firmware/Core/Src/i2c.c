@@ -38,7 +38,7 @@ void MX_I2C2_Init(void)
 
   /* USER CODE END I2C2_Init 1 */
   hi2c2.Instance = I2C2;
-  hi2c2.Init.Timing = 0x00602173;
+  hi2c2.Init.Timing = 0x10707DBC;
   hi2c2.Init.OwnAddress1 = 0;
   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -87,17 +87,13 @@ void HAL_I2C_MspInit(I2C_HandleTypeDef* i2cHandle)
     */
     GPIO_InitStruct.Pin = GPIO_PIN_11|GPIO_PIN_12;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
-    GPIO_InitStruct.Pull = GPIO_PULLUP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.Alternate = GPIO_AF6_I2C2;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
     /* I2C2 clock enable */
     __HAL_RCC_I2C2_CLK_ENABLE();
-
-    /* I2C2 interrupt Init */
-    HAL_NVIC_SetPriority(I2C2_IRQn, 0, 0);
-    HAL_NVIC_EnableIRQ(I2C2_IRQn);
   /* USER CODE BEGIN I2C2_MspInit 1 */
 
   /* USER CODE END I2C2_MspInit 1 */
@@ -123,8 +119,6 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* i2cHandle)
 
     HAL_GPIO_DeInit(GPIOA, GPIO_PIN_12);
 
-    /* I2C2 interrupt Deinit */
-    HAL_NVIC_DisableIRQ(I2C2_IRQn);
   /* USER CODE BEGIN I2C2_MspDeInit 1 */
 
   /* USER CODE END I2C2_MspDeInit 1 */

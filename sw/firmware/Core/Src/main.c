@@ -27,6 +27,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "cli_setup.h"
+#include "TLC59116.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,6 +59,10 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+void scan_i2c(){
+
+}
 
 /* USER CODE END 0 */
 
@@ -97,10 +102,15 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   setupCli();
+  // I2C_Scan();
+  TLC59116_Init();
+
+  TLC59116_LED(0x00, 0x01);
+
   // int32_t CH2_DC = 0;
 
   // int delay_time = 50;
-  uint8_t TX_Buffer [] = "C" ;
+  //uint8_t TX_Buffer [] = "C" ;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,7 +122,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
       embeddedCliProcess(getCliPointer());
       HAL_Delay(1);
-      HAL_I2C_Master_Transmit(&hi2c2,10,TX_Buffer,1,1000); //Sending in Blocking mode
+      // HAL_I2C_Master_Transmit(&hi2c2,10,TX_Buffer,1,1000); //Sending in Blocking mode
 
   }
   /* USER CODE END 3 */

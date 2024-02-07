@@ -3,6 +3,8 @@
  *
  *  Created on: Nov 3, 2023
  *      Author: mats
+ *
+ *      Reference StackOverflow used: https://stackoverflow.com/questions/57796932/does-anyone-have-an-stm32l0xx-with-tlc59116-i2c-example-code
  */
 
 #ifndef INC_TLC59116_TLC59116_H_
@@ -11,7 +13,8 @@
 #include "i2c.h"
 
 // TLC device address
-#define TLC59116_ADDR 0x00
+#define TLC59116_ADDR_WRITE 0x61 << 1  // This is for board 1 /J1 shunted
+#define TLC59116_ADDR_READ 0x63 << 1  // This is for board 1 /J1 shunted
 
 // I2C device handler reference
 #define I2C_DEV &hi2c2
@@ -51,7 +54,8 @@
 #define TLC59116_EFLAG2_ADDR 0x1E
 
 // Register default value definitions
-#define TLC59116_MODE1_DEFAULT 0x01
+#define TLC59116_MODE1_OFF_STATE 0x11
+#define TLC59116_MODE1_ON_STATE 0x01
 #define TLC59116_MODE2_DEFAULT 0x00
 
 // TLC LEDOUT register value definitions
@@ -60,7 +64,16 @@
 #define TLC59116_LEDOUT_PWM 0x10
 #define TLC59116_LEDOUT_PWM_GROUP 0x11
 
+// Register address values
+#define TLC59116_MODE1 0x00
+#define TLC59116_MODE2 0x01
 
+
+// Auto increment values
+#define TLC59116_PWM0_AUTOINCR 0x82
+
+void TLC59116_Init(void);
 void TLC59116_LED(uint8_t led, uint8_t state);
+static void TLC59116_WriteStream(uint8_t len, uint8_t *pData);
 
 #endif /* INC_TLC59116_TLC59116_H_ */
