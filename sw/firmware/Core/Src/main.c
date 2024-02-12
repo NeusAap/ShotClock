@@ -28,6 +28,7 @@
 /* USER CODE BEGIN Includes */
 #include "cli_setup.h"
 #include "TLC59116.h"
+#include "segment_display.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,6 +49,7 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin);
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+volatile int number = 99; // Initial number
 
 /* USER CODE END PV */
 
@@ -60,9 +62,6 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-void scan_i2c(){
-
-}
 
 /* USER CODE END 0 */
 
@@ -99,13 +98,13 @@ int main(void)
   MX_TIM1_Init();
   MX_I2C2_Init();
   MX_USART3_UART_Init();
+  MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
 
   setupCli();
   // I2C_Scan();
   TLC59116_Init();
-
-  TLC59116_LED(0x00, 0x01);
+  // Start the timer
 
   // int32_t CH2_DC = 0;
 
@@ -121,6 +120,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
       embeddedCliProcess(getCliPointer());
+      SampleBatteryVoltage();
       HAL_Delay(1);
       // HAL_I2C_Master_Transmit(&hi2c2,10,TX_Buffer,1,1000); //Sending in Blocking mode
 
@@ -178,7 +178,11 @@ void SystemClock_Config(void)
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin)  {
     cli_printf("Clicked with PIN: %u", GPIO_Pin);
     HAL_GPIO_TogglePin(ORANGE_LED_GPIO_Port, ORANGE_LED_Pin);
+    for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
+        SegmentDisp_SetCountdown(42, displayNumber);
+    }
 }
+
 /* USER CODE END 4 */
 
 /**

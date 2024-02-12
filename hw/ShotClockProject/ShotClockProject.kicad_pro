@@ -457,7 +457,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "output/3d/ShotClockMainBoard.step",
+      "step": "output/3d/ShotClockMainBoard_try1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
