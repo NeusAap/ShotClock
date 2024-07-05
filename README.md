@@ -1,5 +1,5 @@
-# ShotClock
- Shotclock hardware & software
+# ShotClock hardware & software
+This project entails the creation of a poker shot clock. The device is designed to manage the timing of player decisions during a poker game, enhancing the pace of play and ensuring fair timing for all participants. 
 
 
 # Folder structure
@@ -7,10 +7,3 @@
 2. `hw/ShotClockProject`: Contains KiCAD 7.0.6 design files for hardware
 3. `hw/ShotClockProject/output`: Contains hardware output files (plots, PDFs etc.)
 4. `sw`: contains STM32CubeIDE firmware
-
-# To-do list
-1. Routing of PCB
-2. Add silkscreen with handy info (UART orientation, HW revision etc.)
-3. Create second PCB with segment displays & transistors
-4. Double check crucial polarities (battery polarity etc.)
-5. Review availability of components after routing, and create manufacturing files 
