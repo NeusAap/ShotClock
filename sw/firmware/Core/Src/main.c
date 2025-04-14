@@ -179,7 +179,7 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin)  {
     cli_printf("Clicked with PIN: %u", GPIO_Pin);
     HAL_GPIO_TogglePin(ORANGE_LED_GPIO_Port, ORANGE_LED_Pin);
     for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
-        SegmentDisp_SetCountdown(42, displayNumber);
+        SegmentDisp_SetCountdown(72, displayNumber);
     }
 }
 
