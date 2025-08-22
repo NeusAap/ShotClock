@@ -1,1104 +1,2660 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 5fd859aa-754d-49c2-9762-3f7ebe3bb64c)
-
-  (paper "A4")
-
-  (title_block
-    (title "Shotclock Mainboard")
-    (date "2023-06-28")
-    (rev "1")
-    (comment 1 "Author: M. de Waard")
-  )
-
-  (lib_symbols
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 6.858 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_0_1"
-        (circle (center 0 3.302) (radius 0.762)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_1_1"
-        (pin passive line (at 0 0 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "TK-6580S-1:TK-6580S-1" (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TK-6580S-1" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "TK-6580S-1:SW-SMD_TK-6580S-1" (at 0 -15.24 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC Part" "C528774" (at 0 -17.78 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TK-6580S-1_0_1"
-        (rectangle (start -3.05 2.03) (end 0.51 1.27)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start -0.51 -1.02) (end 3.05 -1.78)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -2.03)
-            (xy -2.79 -2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.03)
-            (xy -2.79 2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -2.03)
-            (xy -0.25 -2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.03)
-            (xy -0.25 2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.03)
-            (xy 2.29 -2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.03)
-            (xy 2.29 2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.05 0)
-            (xy 3.81 0)
-            (xy 2.29 0.25)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -5.08)
-            (xy -2.54 -2.03)
-            (xy -2.29 -2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 5.08)
-            (xy -2.54 2.03)
-            (xy -2.29 2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -5.08)
-            (xy 0 -2.03)
-            (xy 0.25 -2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 5.08)
-            (xy 0 2.03)
-            (xy 0.25 2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -5.08)
-            (xy 2.54 -2.03)
-            (xy 2.79 -2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 5.08)
-            (xy 2.54 2.03)
-            (xy 2.79 2.79)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TK-6580S-1_1_1"
-        (pin passive line (at -2.54 -7.62 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -7.62 90) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -7.62 90) (length 2.54)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 7.62 270) (length 2.54)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 7.62 270) (length 2.54)
-          (name "5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 7.62 270) (length 2.54)
-          (name "6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-  (junction (at 92.71 54.61) (diameter 0) (color 0 0 0 0)
-    (uuid 69611a5f-2f25-4673-a3d8-1417c1958c34)
-  )
-  (junction (at 156.21 54.61) (diameter 0) (color 0 0 0 0)
-    (uuid 8d71de06-3bf0-4faa-824e-1cdb6c2fea1e)
-  )
-  (junction (at 103.505 54.61) (diameter 0) (color 0 0 0 0)
-    (uuid a02c8814-06eb-4ead-8ff5-8df18909956c)
-  )
-  (junction (at 103.505 35.56) (diameter 0) (color 0 0 0 0)
-    (uuid c557f115-0400-4889-b2fa-d694c2e5a793)
-  )
-  (junction (at 59.69 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid cbe273c0-4ff8-4c74-bf1a-0e035bfb6409)
-  )
-  (junction (at 156.21 35.56) (diameter 0) (color 0 0 0 0)
-    (uuid cd355ce6-ef22-4d55-a1ff-42db7f0b7e7a)
-  )
-
-  (no_connect (at 86.36 54.61) (uuid 246e500f-0977-4de1-bffc-18b027ae603b))
-  (no_connect (at 71.12 54.61) (uuid 70dd1da0-2dba-471b-8b98-b4b1970f0cd6))
-  (no_connect (at 86.36 52.07) (uuid 98985c65-fe76-4560-8c0d-3d9a0fabccdd))
-  (no_connect (at 86.36 49.53) (uuid bb47b342-762d-48dc-8721-6124508f6a99))
-
-  (wire (pts (xy 153.67 54.61) (xy 156.21 54.61))
-    (stroke (width 0) (type default))
-    (uuid 10871da0-d9b6-4d33-9a3a-a799fb9cb57f)
-  )
-  (wire (pts (xy 103.505 54.61) (xy 107.95 54.61))
-    (stroke (width 0) (type default))
-    (uuid 11a57fff-12ce-482e-8f1c-a301169e03e4)
-  )
-  (wire (pts (xy 68.58 57.785) (xy 92.71 57.785))
-    (stroke (width 0) (type default))
-    (uuid 1990cfc4-bd6e-44e4-abf9-07dc7a25849c)
-  )
-  (wire (pts (xy 208.28 106.045) (xy 227.33 106.045))
-    (stroke (width 0) (type default))
-    (uuid 1a510a01-ba75-4f7a-b657-32d2ebcbc5d5)
-  )
-  (wire (pts (xy 92.71 35.56) (xy 92.71 54.61))
-    (stroke (width 0) (type default))
-    (uuid 1f919ec9-08e9-47e6-995b-689ca20551fc)
-  )
-  (wire (pts (xy 156.21 54.61) (xy 160.02 54.61))
-    (stroke (width 0) (type default))
-    (uuid 1fc69147-d822-4903-bd5e-b07ca47501fc)
-  )
-  (wire (pts (xy 103.505 35.56) (xy 107.95 35.56))
-    (stroke (width 0) (type default))
-    (uuid 259b723f-2103-44d7-9e2e-d167dda83fdf)
-  )
-  (wire (pts (xy 92.71 57.785) (xy 92.71 54.61))
-    (stroke (width 0) (type default))
-    (uuid 2b2f0928-313a-4969-9458-ae2de1d9faec)
-  )
-  (wire (pts (xy 132.08 35.56) (xy 146.05 35.56))
-    (stroke (width 0) (type default))
-    (uuid 2ee5013b-4b68-48bb-a9fa-0a91fe0de133)
-  )
-  (wire (pts (xy 101.6 35.56) (xy 103.505 35.56))
-    (stroke (width 0) (type default))
-    (uuid 4ed7318f-5856-4fd7-a446-cfa729c32cfa)
-  )
-  (wire (pts (xy 132.08 54.61) (xy 146.05 54.61))
-    (stroke (width 0) (type default))
-    (uuid 549e25eb-2c41-4a87-8138-0d7114847912)
-  )
-  (wire (pts (xy 71.12 52.07) (xy 68.58 52.07))
-    (stroke (width 0) (type default))
-    (uuid 584042a1-e3ad-4ac0-9810-d681ace7d16b)
-  )
-  (wire (pts (xy 92.71 54.61) (xy 93.98 54.61))
-    (stroke (width 0) (type default))
-    (uuid 60caf0ee-213c-4122-8865-618a0ad4985b)
-  )
-  (wire (pts (xy 48.26 49.53) (xy 59.69 49.53))
-    (stroke (width 0) (type default))
-    (uuid 6601d5b8-3f98-4eaa-a8b8-ffb72edef09d)
-  )
-  (wire (pts (xy 160.02 54.61) (xy 160.02 53.34))
-    (stroke (width 0) (type default))
-    (uuid 717ac194-c79c-4bad-bf34-aad5d624bed0)
-  )
-  (wire (pts (xy 93.98 35.56) (xy 92.71 35.56))
-    (stroke (width 0) (type default))
-    (uuid 7799cdd0-405d-4ded-86df-23366ba4e000)
-  )
-  (wire (pts (xy 146.05 87.63) (xy 166.37 87.63))
-    (stroke (width 0) (type default))
-    (uuid 89e80b15-ba14-4d4e-a340-10fc670e971e)
-  )
-  (wire (pts (xy 64.77 54.61) (xy 64.77 107.315))
-    (stroke (width 0) (type default))
-    (uuid 9845dd34-29fb-407e-bb09-6bcefcda81c0)
-  )
-  (wire (pts (xy 160.02 35.56) (xy 160.02 34.29))
-    (stroke (width 0) (type default))
-    (uuid b3efbf33-5262-4ad0-bfee-a8d093488987)
-  )
-  (wire (pts (xy 59.69 49.53) (xy 71.12 49.53))
-    (stroke (width 0) (type default))
-    (uuid bd6f9090-c367-4f1f-94c0-b868da1b74f0)
-  )
-  (wire (pts (xy 48.26 54.61) (xy 64.77 54.61))
-    (stroke (width 0) (type default))
-    (uuid c194ccfe-bf5e-4eb7-a82f-4097bc221436)
-  )
-  (wire (pts (xy 153.67 35.56) (xy 156.21 35.56))
-    (stroke (width 0) (type default))
-    (uuid c8a030de-81c1-42ad-8603-f33eec9cad7c)
-  )
-  (wire (pts (xy 68.58 52.07) (xy 68.58 57.785))
-    (stroke (width 0) (type default))
-    (uuid e58b1b8c-56ae-4422-b150-331916c4c8ab)
-  )
-  (wire (pts (xy 146.05 92.71) (xy 166.37 92.71))
-    (stroke (width 0) (type default))
-    (uuid e9067c57-5a14-4e46-b298-e74831e67140)
-  )
-  (wire (pts (xy 156.21 35.56) (xy 160.02 35.56))
-    (stroke (width 0) (type default))
-    (uuid f25995ce-2214-4fdc-9067-a9565d480920)
-  )
-  (wire (pts (xy 101.6 54.61) (xy 103.505 54.61))
-    (stroke (width 0) (type default))
-    (uuid f59ab7fe-d650-43ad-9aa8-b86d91dd3fd9)
-  )
-  (wire (pts (xy 146.05 97.79) (xy 166.37 97.79))
-    (stroke (width 0) (type default))
-    (uuid f7385190-598a-4e15-9559-a8651ac18a78)
-  )
-  (wire (pts (xy 64.77 107.315) (xy 166.37 107.315))
-    (stroke (width 0) (type default))
-    (uuid fa7fcca7-0a47-432b-a6f0-8ce1686c00f1)
-  )
-
-  (rectangle (start 19.05 21.59) (end 279.4 163.83)
-    (stroke (width 0) (type dash) (color 255 0 0 1))
-    (fill (type none))
-    (uuid 834536ff-fc99-43b0-8fda-4e0550c48a30)
-  )
-
-  (text "0R resistors to be able to \ntest sub circuits, before inputting it into\nthe next circuit."
-    (at 50.8 33.02 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 14846e42-3b8a-4f1d-80e4-9c3818c19ba6)
-  )
-  (text "'Shotclock mainboard' root page" (at 17.78 19.05 0)
-    (effects (font (size 2.5 2.5) (color 255 0 0 1)) (justify left bottom))
-    (uuid 9b880064-a9b9-47ee-a6f5-21510efc49a7)
-  )
-
-  (symbol (lib_id "TK-6580S-1:TK-6580S-1") (at 78.74 52.07 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 07ec3271-2228-425d-8656-c2ccc5e81526)
-    (property "Reference" "SW1" (at 78.74 43.815 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TK-6580S-1" (at 78.74 46.355 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "TK-6580S-1:SW-SMD_TK-6580S-1" (at 93.98 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 78.74 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C528774" (at 78.74 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a68274e7-8b33-4a63-b9e6-675a22051bc7))
-    (pin "2" (uuid d427a611-6474-4b38-b804-6150263a9128))
-    (pin "3" (uuid 3d86925b-73b4-41e9-ac60-da16f63d98f5))
-    (pin "4" (uuid f00fba33-b421-4dad-8e28-e053e653c7b7))
-    (pin "5" (uuid b8bd2b2d-ef98-4cc9-a766-a0b5d72c0b61))
-    (pin "6" (uuid 890befa8-2b81-483a-9295-8a5c6847f2f2))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "SW1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 156.21 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 16957151-8fd3-43bd-b115-5a150c4b6ae1)
-    (property "Reference" "#FLG04" (at 156.21 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 156.21 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 156.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 156.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3a8c17b5-a239-48a0-ba71-cad3ea457813))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
-          (reference "#FLG04") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#FLG02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 149.86 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid 47103a2d-b418-4268-b8d2-edf48a0d4ea6)
-    (property "Reference" "R2" (at 149.86 29.21 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 149.86 31.75 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 149.86 37.338 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 149.86 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C17168" (at 149.86 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8f7b4dec-b48d-4f0b-b9d9-ffbb3a1efb52))
-    (pin "2" (uuid 149353c9-31ae-4286-a78c-8eef4d1093eb))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 97.79 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid 5113f267-e4d0-44b8-be1d-12d4e548b8dc)
-    (property "Reference" "R1" (at 97.79 29.21 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 97.79 31.75 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 97.79 37.338 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 97.79 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C17168" (at 97.79 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ef9c7bce-d7cd-42a8-a0cc-65de62335ef1))
-    (pin "2" (uuid 75f44279-a546-4d72-b860-b7e5a7bfdc85))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 160.02 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 779d6aeb-6d65-4feb-9524-a5a90bf209ba)
-    (property "Reference" "#PWR02" (at 160.02 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 160.02 48.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 160.02 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 160.02 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 54c6f8ff-be52-427a-992d-765a03fb0c1b))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "ShotClockDisplayPCB"
-        (path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/acc83e16-b7da-48bd-ac1b-341a95513ee6"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 149.86 54.61 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid 9021ebca-9f95-4bd3-983c-5e15a4fbb294)
-    (property "Reference" "R4" (at 149.86 48.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 149.86 50.8 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 149.86 56.388 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 149.86 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C17168" (at 149.86 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d76e8528-af4c-4698-80b2-afc3bce431b8))
-    (pin "2" (uuid d3027e8e-95ce-4890-ac28-95c31ccb4d5b))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "R4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 103.505 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 968854ea-95d4-43d3-bf36-37afa0428b47)
-    (property "Reference" "#FLG03" (at 103.505 33.655 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 102.87 39.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 103.505 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 103.505 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6c815796-b444-49b2-895f-43f75615a490))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
-          (reference "#FLG03") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/17367eb9-0f4d-4017-b1ca-d50430410a5d"
-          (reference "#FLG08") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#FLG09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 103.505 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9ee044c0-0b2e-45de-881d-ac29ffc73f36)
-    (property "Reference" "#FLG03" (at 103.505 52.705 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 102.235 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 103.505 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 103.505 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7af56be9-1060-49c7-a526-c2258900ccea))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
-          (reference "#FLG03") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/17367eb9-0f4d-4017-b1ca-d50430410a5d"
-          (reference "#FLG08") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#FLG07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 156.21 35.56 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9f7f00d2-350a-4f13-8e92-cc8ad57673bb)
-    (property "Reference" "#FLG04" (at 156.21 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 156.21 40.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 156.21 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 156.21 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ca104b1e-fc17-488c-9501-83fc9fcaa6da))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
-          (reference "#FLG04") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#FLG01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 160.02 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ac04b385-c721-4b43-a1c5-13ab681c4235)
-    (property "Reference" "#PWR01" (at 160.02 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 160.02 30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 160.02 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 160.02 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3ac0fec2-3b81-42b4-a58b-f6d691fcd7d8))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 59.69 49.53 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bdef09b8-389f-4ef6-93f5-b41fff0b4726)
-    (property "Reference" "TP2" (at 58.42 45.72 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 58.42 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 54.61 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 54.61 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "" (at 59.69 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6462ae77-2ec1-4bcd-901c-f18ccf41707e))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "TP2") (unit 1)
-        )
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c/d287d155-1951-4d4f-8d6c-570f03bc79f5"
-          (reference "TP1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 97.79 54.61 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid cba99af8-7fc8-453a-ace5-a500860f403f)
-    (property "Reference" "R3" (at 97.79 48.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 97.79 50.8 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 97.79 56.388 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 97.79 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C17168" (at 97.79 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 678d7de1-d5fc-4152-b104-bff7b023822b))
-    (pin "2" (uuid c33c62ed-600a-422e-bb05-1c82aaf9da4a))
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
-          (reference "R3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 227.33 102.87) (size 30.48 6.35) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0090141d-207a-4f3a-bfd6-43ff1a882302)
-    (property "Sheetname" "Buzzer_3v3_PWM" (at 227.33 102.1584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "buzzer_3v3_pwm.kicad_sch" (at 227.33 109.8046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "buzzer_pwm_in" input (at 227.33 106.045 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5abe77a7-4ed2-4731-9442-cac7df624cd6)
-    )
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 107.95 30.48) (size 24.13 10.16) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 17367eb9-0f4d-4017-b1ca-d50430410a5d)
-    (property "Sheetname" "Voltage regulator 3v3" (at 107.95 29.7684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Regulator3V3.kicad_sch" (at 107.95 41.2246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "batt_in" input (at 107.95 35.56 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1dbc6996-bc73-40aa-b695-a0c2f1f83d66)
-    )
-    (pin "3v3_out" output (at 132.08 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e84af897-827b-46bf-85e5-7da4327c70f4)
-    )
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 123.19 82.55) (size 22.86 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1ce26b90-d7f5-4886-998a-a021d351eec6)
-    (property "Sheetname" "Schmitt trigger and buttons" (at 123.19 81.8384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch" (at 123.19 103.4546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "button1_out" output (at 146.05 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 7179ae5f-0d38-4231-b2f3-31d8873b5552)
-    )
-    (pin "button2_out" output (at 146.05 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 319ab4b2-86e1-4e55-af26-86610d5b36b1)
-    )
-    (pin "button3_out" output (at 146.05 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 302c77c4-a64d-45bf-81a1-02aef0fe0d72)
-    )
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 166.37 81.28) (size 41.91 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5bec211e-466d-46c6-9543-84cb75088ef1)
-    (property "Sheetname" "STM32G070CBT6" (at 166.37 80.5684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "STM32G070CBT6.kicad_sch" (at 166.37 112.3446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "button3_in" input (at 166.37 97.79 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 19550764-fd97-4bbe-9506-6a350877dcf8)
-    )
-    (pin "button1_in" input (at 166.37 87.63 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 53e8a5d4-a165-4ee4-9c4a-bd8b85cb9efb)
-    )
-    (pin "button2_in" input (at 166.37 92.71 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f5884a91-f698-4d5b-846f-2f846c435025)
-    )
-    (pin "buzzer_pwm_out" output (at 208.28 106.045 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 559c1d09-d232-489d-8b44-0355d45c470f)
-    )
-    (pin "ADC_BATT_IN" input (at 166.37 107.315 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid dc7e8f99-2393-4391-b02a-ab291b471222)
-    )
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c" (page "1"))
-      )
-    )
-  )
-
-  (sheet (at 107.95 49.53) (size 24.13 10.16) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 83d8d19c-1376-4688-800d-ae057ad1fe11)
-    (property "Sheetname" "Voltage regulator 5V" (at 107.95 48.8184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Regulator5V.kicad_sch" (at 107.95 60.2746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "batt_in" input (at 107.95 54.61 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 72dd02e7-dc6e-490a-87d4-24eba21195ce)
-    )
-    (pin "5v_out" output (at 132.08 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 43cf62d4-685f-47b7-b60e-47f117922977)
-    )
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 27.305 109.22) (size 33.02 29.845) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 946767ba-005d-422c-bf1d-949982eca775)
-    (property "Sheetname" "USB-C Connector" (at 27.305 108.5084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "usb-c-connector.kicad_sch" (at 27.305 139.6496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 21.59 40.64) (size 26.67 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d287d155-1951-4d4f-8d6c-570f03bc79f5)
-    (property "Sheetname" "Li-Po Battery and charger" (at 21.59 39.9284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "LipoBattAndCharger.kicad_sch" (at 21.59 60.2746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "charger_out" output (at 48.26 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 4f815b52-87bd-435d-9b97-79545e8c60e7)
-    )
-    (pin "Batt_VoltageDivision_out" output (at 48.26 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e59074d5-fa0c-4de1-ba03-3bacb1ac3600)
-    )
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 227.33 71.12) (size 38.1 28.575) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid dbe9281d-d28a-4966-832c-4ef9ca7a9777)
-    (property "Sheetname" "Connectors to segment displays" (at 227.33 70.4084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "header_connectors_segment.kicad_sch" (at 227.33 100.2796 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "ShotClockProject"
-        (path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c" (page "6"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5fd859aa-754d-49c2-9762-3f7ebe3bb64c")
+	(paper "A4")
+	(title_block
+		(title "Shotclock Mainboard")
+		(date "2023-06-28")
+		(rev "1")
+		(comment 1 "Author: M. de Waard")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TK-6580S-1:TK-6580S-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TK-6580S-1"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TK-6580S-1:SW-SMD_TK-6580S-1"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C528774"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TK-6580S-1_0_1"
+				(rectangle
+					(start -3.05 2.03)
+					(end 0.51 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 0) (xy 3.81 0) (xy 2.29 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.03) (xy -2.29 2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.03) (xy -2.79 2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.03) (xy -2.79 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 -2.03) (xy -2.29 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.51 -1.02)
+					(end 3.05 -1.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.03) (xy 0.25 2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.03) (xy -0.25 2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.03) (xy -0.25 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -2.03) (xy 0.25 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.03) (xy 2.79 2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.03) (xy 2.29 2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.03) (xy 2.29 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 -2.03) (xy 2.79 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TK-6580S-1_1_1"
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 19.05 21.59)
+		(end 279.4 163.83)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 834536ff-fc99-43b0-8fda-4e0550c48a30)
+	)
+	(text "0R resistors to be able to \ntest sub circuits, before inputting it into\nthe next circuit."
+		(exclude_from_sim no)
+		(at 50.8 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14846e42-3b8a-4f1d-80e4-9c3818c19ba6")
+	)
+	(text "'Shotclock mainboard' root page"
+		(exclude_from_sim no)
+		(at 17.78 19.05 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b880064-a9b9-47ee-a6f5-21510efc49a7")
+	)
+	(junction
+		(at 92.71 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69611a5f-2f25-4673-a3d8-1417c1958c34")
+	)
+	(junction
+		(at 156.21 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d71de06-3bf0-4faa-824e-1cdb6c2fea1e")
+	)
+	(junction
+		(at 103.505 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a02c8814-06eb-4ead-8ff5-8df18909956c")
+	)
+	(junction
+		(at 103.505 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c557f115-0400-4889-b2fa-d694c2e5a793")
+	)
+	(junction
+		(at 59.69 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbe273c0-4ff8-4c74-bf1a-0e035bfb6409")
+	)
+	(junction
+		(at 156.21 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd355ce6-ef22-4d55-a1ff-42db7f0b7e7a")
+	)
+	(no_connect
+		(at 86.36 54.61)
+		(uuid "246e500f-0977-4de1-bffc-18b027ae603b")
+	)
+	(no_connect
+		(at 71.12 54.61)
+		(uuid "70dd1da0-2dba-471b-8b98-b4b1970f0cd6")
+	)
+	(no_connect
+		(at 86.36 52.07)
+		(uuid "98985c65-fe76-4560-8c0d-3d9a0fabccdd")
+	)
+	(no_connect
+		(at 86.36 49.53)
+		(uuid "bb47b342-762d-48dc-8721-6124508f6a99")
+	)
+	(wire
+		(pts
+			(xy 153.67 54.61) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10871da0-d9b6-4d33-9a3a-a799fb9cb57f")
+	)
+	(wire
+		(pts
+			(xy 103.505 54.61) (xy 107.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a57fff-12ce-482e-8f1c-a301169e03e4")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.785) (xy 92.71 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1990cfc4-bd6e-44e4-abf9-07dc7a25849c")
+	)
+	(wire
+		(pts
+			(xy 208.28 106.045) (xy 227.33 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a510a01-ba75-4f7a-b657-32d2ebcbc5d5")
+	)
+	(wire
+		(pts
+			(xy 92.71 35.56) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f919ec9-08e9-47e6-995b-689ca20551fc")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc69147-d822-4903-bd5e-b07ca47501fc")
+	)
+	(wire
+		(pts
+			(xy 103.505 35.56) (xy 107.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259b723f-2103-44d7-9e2e-d167dda83fdf")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.785) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2f0928-313a-4969-9458-ae2de1d9faec")
+	)
+	(wire
+		(pts
+			(xy 132.08 35.56) (xy 146.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee5013b-4b68-48bb-a9fa-0a91fe0de133")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 103.505 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed7318f-5856-4fd7-a446-cfa729c32cfa")
+	)
+	(wire
+		(pts
+			(xy 132.08 54.61) (xy 146.05 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549e25eb-2c41-4a87-8138-0d7114847912")
+	)
+	(wire
+		(pts
+			(xy 71.12 52.07) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584042a1-e3ad-4ac0-9810-d681ace7d16b")
+	)
+	(wire
+		(pts
+			(xy 92.71 54.61) (xy 93.98 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60caf0ee-213c-4122-8865-618a0ad4985b")
+	)
+	(wire
+		(pts
+			(xy 48.26 49.53) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6601d5b8-3f98-4eaa-a8b8-ffb72edef09d")
+	)
+	(wire
+		(pts
+			(xy 160.02 54.61) (xy 160.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717ac194-c79c-4bad-bf34-aad5d624bed0")
+	)
+	(wire
+		(pts
+			(xy 93.98 35.56) (xy 92.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7799cdd0-405d-4ded-86df-23366ba4e000")
+	)
+	(wire
+		(pts
+			(xy 146.05 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e80b15-ba14-4d4e-a340-10fc670e971e")
+	)
+	(wire
+		(pts
+			(xy 64.77 54.61) (xy 64.77 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9845dd34-29fb-407e-bb09-6bcefcda81c0")
+	)
+	(wire
+		(pts
+			(xy 160.02 35.56) (xy 160.02 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3efbf33-5262-4ad0-bfee-a8d093488987")
+	)
+	(wire
+		(pts
+			(xy 59.69 49.53) (xy 71.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6f9090-c367-4f1f-94c0-b868da1b74f0")
+	)
+	(wire
+		(pts
+			(xy 48.26 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c194ccfe-bf5e-4eb7-a82f-4097bc221436")
+	)
+	(wire
+		(pts
+			(xy 153.67 35.56) (xy 156.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a030de-81c1-42ad-8603-f33eec9cad7c")
+	)
+	(wire
+		(pts
+			(xy 68.58 52.07) (xy 68.58 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58b1b8c-56ae-4422-b150-331916c4c8ab")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9067c57-5a14-4e46-b298-e74831e67140")
+	)
+	(wire
+		(pts
+			(xy 156.21 35.56) (xy 160.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25995ce-2214-4fdc-9067-a9565d480920")
+	)
+	(wire
+		(pts
+			(xy 101.6 54.61) (xy 103.505 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59ab7fe-d650-43ad-9aa8-b86d91dd3fd9")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7385190-598a-4e15-9559-a8651ac18a78")
+	)
+	(wire
+		(pts
+			(xy 64.77 107.315) (xy 166.37 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7fcca7-0a47-432b-a6f0-8ce1686c00f1")
+	)
+	(symbol
+		(lib_id "TK-6580S-1:TK-6580S-1")
+		(at 78.74 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07ec3271-2228-425d-8656-c2ccc5e81526")
+		(property "Reference" "SW1"
+			(at 78.74 43.815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TK-6580S-1"
+			(at 78.74 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TK-6580S-1:SW-SMD_TK-6580S-1"
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C528774"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a68274e7-8b33-4a63-b9e6-675a22051bc7")
+		)
+		(pin "2"
+			(uuid "d427a611-6474-4b38-b804-6150263a9128")
+		)
+		(pin "3"
+			(uuid "3d86925b-73b4-41e9-ac60-da16f63d98f5")
+		)
+		(pin "4"
+			(uuid "f00fba33-b421-4dad-8e28-e053e653c7b7")
+		)
+		(pin "5"
+			(uuid "b8bd2b2d-ef98-4cc9-a766-a0b5d72c0b61")
+		)
+		(pin "6"
+			(uuid "890befa8-2b81-483a-9295-8a5c6847f2f2")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 156.21 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16957151-8fd3-43bd-b115-5a150c4b6ae1")
+		(property "Reference" "#FLG02"
+			(at 156.21 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a8c17b5-a239-48a0-ba71-cad3ea457813")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "47103a2d-b418-4268-b8d2-edf48a0d4ea6")
+		(property "Reference" "R2"
+			(at 149.86 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 149.86 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7b4dec-b48d-4f0b-b9d9-ffbb3a1efb52")
+		)
+		(pin "2"
+			(uuid "149353c9-31ae-4286-a78c-8eef4d1093eb")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5113f267-e4d0-44b8-be1d-12d4e548b8dc")
+		(property "Reference" "R1"
+			(at 97.79 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 97.79 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 97.79 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef9c7bce-d7cd-42a8-a0cc-65de62335ef1")
+		)
+		(pin "2"
+			(uuid "75f44279-a546-4d72-b860-b7e5a7bfdc85")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 160.02 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "779d6aeb-6d65-4feb-9524-a5a90bf209ba")
+		(property "Reference" "#PWR02"
+			(at 160.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54c6f8ff-be52-427a-992d-765a03fb0c1b")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "ShotClockDisplayPCB"
+				(path "/baf3f1b3-1588-4756-b7d1-50b7c58bafb0/acc83e16-b7da-48bd-ac1b-341a95513ee6"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9021ebca-9f95-4bd3-983c-5e15a4fbb294")
+		(property "Reference" "R4"
+			(at 149.86 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 149.86 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d76e8528-af4c-4698-80b2-afc3bce431b8")
+		)
+		(pin "2"
+			(uuid "d3027e8e-95ce-4890-ac28-95c31ccb4d5b")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 103.505 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "968854ea-95d4-43d3-bf36-37afa0428b47")
+		(property "Reference" "#FLG09"
+			(at 103.505 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 102.87 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.505 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 103.505 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.505 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c815796-b444-49b2-895f-43f75615a490")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 103.505 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ee044c0-0b2e-45de-881d-ac29ffc73f36")
+		(property "Reference" "#FLG07"
+			(at 103.505 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 102.235 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.505 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 103.505 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.505 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7af56be9-1060-49c7-a526-c2258900ccea")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 156.21 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f7f00d2-350a-4f13-8e92-cc8ad57673bb")
+		(property "Reference" "#FLG01"
+			(at 156.21 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca104b1e-fc17-488c-9501-83fc9fcaa6da")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac04b385-c721-4b43-a1c5-13ab681c4235")
+		(property "Reference" "#PWR01"
+			(at 160.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ac0fec2-3b81-42b4-a58b-f6d691fcd7d8")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdef09b8-389f-4ef6-93f5-b41fff0b4726")
+		(property "Reference" "TP2"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 54.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 59.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6462ae77-2ec1-4bcd-901c-f18ccf41707e")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "cba99af8-7fc8-453a-ace5-a500860f403f")
+		(property "Reference" "R3"
+			(at 97.79 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 97.79 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 97.79 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "678d7de1-d5fc-4152-b104-bff7b023822b")
+		)
+		(pin "2"
+			(uuid "c33c62ed-600a-422e-bb05-1c82aaf9da4a")
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 102.87)
+		(size 30.48 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0090141d-207a-4f3a-bfd6-43ff1a882302")
+		(property "Sheetname" "Buzzer_3v3_PWM"
+			(at 227.33 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buzzer_3v3_pwm.kicad_sch"
+			(at 227.33 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "buzzer_pwm_in" input
+			(at 227.33 106.045 180)
+			(uuid "5abe77a7-4ed2-4731-9442-cac7df624cd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 30.48)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17367eb9-0f4d-4017-b1ca-d50430410a5d")
+		(property "Sheetname" "Voltage regulator 3v3"
+			(at 107.95 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Regulator3V3.kicad_sch"
+			(at 107.95 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batt_in" input
+			(at 107.95 35.56 180)
+			(uuid "1dbc6996-bc73-40aa-b695-a0c2f1f83d66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3v3_out" output
+			(at 132.08 35.56 0)
+			(uuid "e84af897-827b-46bf-85e5-7da4327c70f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 82.55)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ce26b90-d7f5-4886-998a-a021d351eec6")
+		(property "Sheetname" "Schmitt trigger and buttons"
+			(at 123.19 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SchmittTriggerWithButtons.kicad_sch"
+			(at 123.19 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "button1_out" output
+			(at 146.05 87.63 0)
+			(uuid "7179ae5f-0d38-4231-b2f3-31d8873b5552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "button2_out" output
+			(at 146.05 92.71 0)
+			(uuid "319ab4b2-86e1-4e55-af26-86610d5b36b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "button3_out" output
+			(at 146.05 97.79 0)
+			(uuid "302c77c4-a64d-45bf-81a1-02aef0fe0d72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 81.28)
+		(size 41.91 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5bec211e-466d-46c6-9543-84cb75088ef1")
+		(property "Sheetname" "STM32G070CBT6"
+			(at 166.37 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32G070CBT6.kicad_sch"
+			(at 166.37 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "button3_in" input
+			(at 166.37 97.79 180)
+			(uuid "19550764-fd97-4bbe-9506-6a350877dcf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "button1_in" input
+			(at 166.37 87.63 180)
+			(uuid "53e8a5d4-a165-4ee4-9c4a-bd8b85cb9efb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "button2_in" input
+			(at 166.37 92.71 180)
+			(uuid "f5884a91-f698-4d5b-846f-2f846c435025")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "buzzer_pwm_out" output
+			(at 208.28 106.045 0)
+			(uuid "559c1d09-d232-489d-8b44-0355d45c470f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_BATT_IN" input
+			(at 166.37 107.315 180)
+			(uuid "dc7e8f99-2393-4391-b02a-ab291b471222")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 49.53)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83d8d19c-1376-4688-800d-ae057ad1fe11")
+		(property "Sheetname" "Voltage regulator 5V"
+			(at 107.95 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Regulator5V.kicad_sch"
+			(at 107.95 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batt_in" input
+			(at 107.95 54.61 180)
+			(uuid "72dd02e7-dc6e-490a-87d4-24eba21195ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5v_out" output
+			(at 132.08 54.61 0)
+			(uuid "43cf62d4-685f-47b7-b60e-47f117922977")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.305 109.22)
+		(size 33.02 29.845)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "946767ba-005d-422c-bf1d-949982eca775")
+		(property "Sheetname" "USB-C Connector"
+			(at 27.305 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-c-connector.kicad_sch"
+			(at 27.305 139.6496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 40.64)
+		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d287d155-1951-4d4f-8d6c-570f03bc79f5")
+		(property "Sheetname" "Li-Po Battery and charger"
+			(at 21.59 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LipoBattAndCharger.kicad_sch"
+			(at 21.59 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "charger_out" output
+			(at 48.26 49.53 0)
+			(uuid "4f815b52-87bd-435d-9b97-79545e8c60e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Batt_VoltageDivision_out" output
+			(at 48.26 54.61 0)
+			(uuid "e59074d5-fa0c-4de1-ba03-3bacb1ac3600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 71.12)
+		(size 38.1 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbe9281d-d28a-4966-832c-4ef9ca7a9777")
+		(property "Sheetname" "Connectors to segment displays"
+			(at 227.33 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "header_connectors_segment.kicad_sch"
+			(at 227.33 100.2796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ShotClockProject"
+				(path "/5fd859aa-754d-49c2-9762-3f7ebe3bb64c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

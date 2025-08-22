@@ -2,6 +2,7 @@
 hw/ShotClockProject/ShotClockProject-backups/
 sw/firmware/Debug
 sw/firmware/cmake-build-debug
+sw/firmware/cmake-build-release
 .project
 .mxproject
 .cproject

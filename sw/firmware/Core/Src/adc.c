@@ -68,7 +68,7 @@ void MX_ADC1_Init(void)
 
   /** Configure Regular Channel
   */
-  sConfig.Channel = ADC_CHANNEL_VBAT;
+  sConfig.Channel = ADC_CHANNEL_0;
   sConfig.Rank = ADC_REGULAR_RANK_1;
   sConfig.SamplingTime = ADC_SAMPLINGTIME_COMMON_1;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
@@ -144,6 +144,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
 /* USER CODE BEGIN 1 */
 uint16_t adc_value;
 float sampled_voltage = 0.0f;
+float battery_correction_factor = 0.9497206703910615f;
 
 // Function to read ADC value and convert to voltage
 void SampleBatteryVoltage() {
@@ -156,7 +157,7 @@ void SampleBatteryVoltage() {
     // Read ADC value
     adc_value = HAL_ADC_GetValue(&hadc1);
     // Convert ADC value to voltage (assuming VREF is 3.3V and ADC is 12-bit)
-    sampled_voltage = ((float)adc_value / 4095 * 3.3) * 10;
+    sampled_voltage = ((float)adc_value / 4095 * 3.3) * 2 * battery_correction_factor;
     // HAL_Delay(10);
 }
 
