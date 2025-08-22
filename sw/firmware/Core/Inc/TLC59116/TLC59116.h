@@ -111,6 +111,6 @@ void TLC59116_WriteReg(uint8_t reg, uint8_t val, uint8_t displayNumber);
 uint8_t TLC59116_ReadReg(uint8_t reg, uint8_t displayNumber);
 void TLC59116_WriteStream(uint8_t len, uint8_t *pData, uint8_t displayNumber);
 void TLC59116_TurnOffAllLEDs(uint8_t displayNumber);
-void TLC59116_TurnOnAllLEDs(uint8_t displayNumber);
+void TLC59116_TurnOnAllLEDs(uint8_t displayNumber, uint8_t excludeDot);
 
 #endif /* INC_TLC59116_TLC59116_H_ */

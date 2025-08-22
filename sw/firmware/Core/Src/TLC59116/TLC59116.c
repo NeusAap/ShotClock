@@ -159,9 +159,14 @@ void TLC59116_TurnOffAllLEDs(uint8_t displayNumber) {
     }
 }
 
-void TLC59116_TurnOnAllLEDs(uint8_t displayNumber) {
+void TLC59116_TurnOnAllLEDs(uint8_t displayNumber, uint8_t excludeDot) {
     // Iterate through all LED numbers and turn them off
     for (int i = 1; i <= 16; i++) {
+        // Skip the dot segments if bool is true, since they stop the showing of all other segments
+        if (excludeDot && (i == 8 || i == 16 ))
+        {
+            continue;
+        }
         LEDControlParams params;
         params.ledNumber = i;
         params.controlValue = LED_FULL_ON;

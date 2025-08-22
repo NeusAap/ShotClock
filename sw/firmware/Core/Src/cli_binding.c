@@ -152,7 +152,7 @@ void setDigits(EmbeddedCli *cli, char *args, void *context){
     }else if(strcasecmp(onOffStr, "on") == 0){
         cli_printf("Turning all digits on.");
         for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
-            TLC59116_TurnOnAllLEDs(displayNumber);
+            TLC59116_TurnOnAllLEDs(displayNumber, 0);
         }
         return;
     }
@@ -192,6 +192,30 @@ void getBatteryVoltage(EmbeddedCli *cli, char *args, void *context) {
     int voltage_decimal = voltage_int % 100; // Extract decimal part
     int voltage_whole = voltage_int / 100; // Extract whole part
     cli_printf("Voltage: %d.%02dV", voltage_whole, voltage_decimal);
+}
+
+void setAllDisplaysSegments(EmbeddedCli *cli, char *args, void *context)
+{
+    const char *onOffStr = embeddedCliGetToken(args, 1);
+    const char *null_check = embeddedCliGetToken(args, 2);
+    if (onOffStr == NULL || null_check != NULL) {
+        cli_printf("usage: seg-all [on/off]");
+        return;
+    }
+
+    if (strcasecmp(onOffStr, "off") == 0){
+        cli_printf("Turning all segments off.");
+        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
+            TLC59116_TurnOffAllLEDs(displayNumber);
+        }
+        return;
+    }if (strcasecmp(onOffStr, "on") == 0)
+    {
+        cli_printf("Turning all digits on.");
+        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
+            TLC59116_TurnOnAllLEDs(displayNumber, 1);
+        }
+    }
 }
 
 
@@ -281,6 +305,14 @@ void initCliBinding() {
             .binding = getBatteryVoltage
     };
 
+    CliCommandBinding set_all_segments_binding = {
+            .name = "seg-all",
+            .help = "Sets all the segments on/off on all displays",
+            .tokenizeArgs = true,
+            .context = NULL,
+            .binding = setAllDisplaysSegments
+    };
+
 
     EmbeddedCli *cli = getCliPointer();
     embeddedCliAddBinding(cli, clear_binding);
@@ -293,4 +325,5 @@ void initCliBinding() {
     embeddedCliAddBinding(cli, set_digits_binding);
     embeddedCliAddBinding(cli, set_countdown_binding);
     embeddedCliAddBinding(cli, get_battvolt_binding);
+    embeddedCliAddBinding(cli, set_all_segments_binding);
 }
