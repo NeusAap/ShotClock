@@ -112,5 +112,10 @@ uint8_t TLC59116_ReadReg(uint8_t reg, uint8_t displayNumber);
 void TLC59116_WriteStream(uint8_t len, uint8_t *pData, uint8_t displayNumber);
 void TLC59116_TurnOffAllLEDs(uint8_t displayNumber);
 void TLC59116_TurnOnAllLEDs(uint8_t displayNumber, uint8_t excludeDot);
+void TLC59116_SetBrightness(uint8_t ledNumber, uint8_t brightness, uint8_t displayNumber, uint8_t excludeDot);
+void TLC59116_SetAllBrightness(uint8_t *values, uint8_t displayNumber); // expects 16 values
+void TLC59116_SetGlobalBrightness(uint8_t brightness, uint8_t displayNumber);
+void TLC59116_SetAllToMode(LEDControl mode, uint8_t displayNumber);
+
 
 #endif /* INC_TLC59116_TLC59116_H_ */

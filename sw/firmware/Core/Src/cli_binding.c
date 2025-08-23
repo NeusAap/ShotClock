@@ -17,14 +17,17 @@
 #include "segment_display.h"
 #include "adc.h"
 
-void onClearCLI(EmbeddedCli *cli, char *args, void *context) {
+void onClearCLI(EmbeddedCli* cli, char* args, void* context)
+{
     cli_printf("\33[2J");
 }
 
-void onGetLed(EmbeddedCli *cli, char *args, void *context) {
-    const char *arg1 = embeddedCliGetToken(args, 1);
-    const char *arg2 = embeddedCliGetToken(args, 2);
-    if (arg1 == NULL || arg2 == NULL) {
+void onGetLed(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* arg1 = embeddedCliGetToken(args, 1);
+    const char* arg2 = embeddedCliGetToken(args, 2);
+    if (arg1 == NULL || arg2 == NULL)
+    {
         cli_printf("usage: get-led [arg1] [arg2]");
         return;
     }
@@ -32,57 +35,72 @@ void onGetLed(EmbeddedCli *cli, char *args, void *context) {
     cli_printf("LED with args: %s and %s", arg1, arg2);
 }
 
-void onSetLed(EmbeddedCli *cli, char *args, void *context) {
-    const char *arg1 = embeddedCliGetToken(args, 1);
-    const char *arg2 = embeddedCliGetToken(args, 2);
-    if (arg1 == NULL || arg2 == NULL) {
+void onSetLed(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* arg1 = embeddedCliGetToken(args, 1);
+    const char* arg2 = embeddedCliGetToken(args, 2);
+    if (arg1 == NULL || arg2 == NULL)
+    {
         goto usage;
         return;
     }
 
-    if (strcasecmp(arg1, "0") == 0){
-        if (strcasecmp(arg2, "on") == 0){
+    if (strcasecmp(arg1, "0") == 0)
+    {
+        if (strcasecmp(arg2, "on") == 0)
+        {
             cli_printf("Enabled LED 0.");
             HAL_GPIO_WritePin(ORANGE_LED_GPIO_Port, ORANGE_LED_Pin, GPIO_PIN_SET);
             return;
-        }else if(strcasecmp(arg2, "off") == 0){
+        }
+        else if (strcasecmp(arg2, "off") == 0)
+        {
             cli_printf("Disabled LED 0.");
             HAL_GPIO_WritePin(ORANGE_LED_GPIO_Port, ORANGE_LED_Pin, GPIO_PIN_RESET);
             return;
-        }else{
+        }
+        else
+        {
             goto usage;
             return;
         }
     }
-    usage:
-        cli_printf("usage: set-led [led-num] [off/on]");
+usage:
+    cli_printf("usage: set-led [led-num] [off/on]");
 }
 
-void onBuzzer(EmbeddedCli *cli, char *args, void *context) {
-    const char *arg1 = embeddedCliGetToken(args, 1);
-    const char *arg2 = embeddedCliGetToken(args, 2);
-    if (arg1 == NULL || arg2 != NULL) {
+void onBuzzer(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* arg1 = embeddedCliGetToken(args, 1);
+    const char* arg2 = embeddedCliGetToken(args, 2);
+    if (arg1 == NULL || arg2 != NULL)
+    {
         cli_printf("usage: buzzer [off/on]");
         return;
     }
-    if (strcasecmp(arg1, "on") == 0){
+    if (strcasecmp(arg1, "on") == 0)
+    {
         cli_printf("Enable buzzer");
         TIM1->CCR2 = 50;
         HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
         return;
-    }else if (strcasecmp(arg1, "off") == 0){
+    }
+    else if (strcasecmp(arg1, "off") == 0)
+    {
         cli_printf("Disable buzzer");
         HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
         return;
     }
 }
 
-void onI2CSetReg(EmbeddedCli *cli, char *args, void *context) {
-    const char *displayNumberStr = embeddedCliGetToken(args, 1);
-    const char *address = embeddedCliGetToken(args, 2);
-    const char *value = embeddedCliGetToken(args, 3);
-    const char *null_check = embeddedCliGetToken(args, 4);
-    if (displayNumberStr == NULL || address == NULL || value == NULL || null_check != NULL) {
+void onI2CSetReg(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* displayNumberStr = embeddedCliGetToken(args, 1);
+    const char* address = embeddedCliGetToken(args, 2);
+    const char* value = embeddedCliGetToken(args, 3);
+    const char* null_check = embeddedCliGetToken(args, 4);
+    if (displayNumberStr == NULL || address == NULL || value == NULL || null_check != NULL)
+    {
         cli_printf("usage: i2c-set [disp-number(1-4)] [address] [value]");
         return;
     }
@@ -93,11 +111,13 @@ void onI2CSetReg(EmbeddedCli *cli, char *args, void *context) {
     TLC59116_WriteReg(i2cAddress, i2cValue, displayNumber);
 }
 
-void onI2CGetReg(EmbeddedCli *cli, char *args, void *context) {
-    const char *displayNumberStr = embeddedCliGetToken(args, 1);
-    const char *address = embeddedCliGetToken(args, 2);
-    const char *null_check = embeddedCliGetToken(args, 3);
-    if (displayNumberStr == NULL || address == NULL || null_check != NULL) {
+void onI2CGetReg(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* displayNumberStr = embeddedCliGetToken(args, 1);
+    const char* address = embeddedCliGetToken(args, 2);
+    const char* null_check = embeddedCliGetToken(args, 3);
+    if (displayNumberStr == NULL || address == NULL || null_check != NULL)
+    {
         cli_printf("usage: i2c-get [disp-number(1-4)] [reg-address]");
         return;
     }
@@ -105,15 +125,16 @@ void onI2CGetReg(EmbeddedCli *cli, char *args, void *context) {
     uint8_t regAddress = (uint8_t)strtol(address, NULL, 16); // Convert to hexadecimal
     uint8_t result = TLC59116_ReadReg(regAddress, displayNumber);
     cli_printf("Read reg at addr: 0x%x. Value: 0x%x for display: %d", regAddress, result, displayNumber);
-
 }
 
-void setSegment(EmbeddedCli *cli, char *args, void *context){
-    const char *displayNumberStr = embeddedCliGetToken(args, 1);
-    const char *onOffStr = embeddedCliGetToken(args, 2);
-    const char *segmentStr = embeddedCliGetToken(args, 3);
-    const char *null_check = embeddedCliGetToken(args, 4);
-    if (displayNumberStr == NULL || onOffStr == NULL || segmentStr == NULL || null_check != NULL) {
+void setSegment(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* displayNumberStr = embeddedCliGetToken(args, 1);
+    const char* onOffStr = embeddedCliGetToken(args, 2);
+    const char* segmentStr = embeddedCliGetToken(args, 3);
+    const char* null_check = embeddedCliGetToken(args, 4);
+    if (displayNumberStr == NULL || onOffStr == NULL || segmentStr == NULL || null_check != NULL)
+    {
         cli_printf("usage: seg [disp-number(1-4)] [on/off] [0-16]");
         return;
     }
@@ -121,37 +142,46 @@ void setSegment(EmbeddedCli *cli, char *args, void *context){
     LEDControlParams params;
     uint8_t led_num = (uint8_t)atoi(segmentStr);
     params.ledNumber = led_num;
-    if (strcasecmp(onOffStr, "on") == 0){
+    if (strcasecmp(onOffStr, "on") == 0)
+    {
         cli_printf("Enabled segment %d for display: %d", led_num, displayNumber);
         params.controlValue = LED_FULL_ON;
-    }else if (strcasecmp(onOffStr, "off") == 0){
+    }
+    else if (strcasecmp(onOffStr, "off") == 0)
+    {
         cli_printf("Disabled segment %d for display: %d", led_num, displayNumber);
         params.controlValue = LED_OFF;
     }
     TLC59116_SetLED(params, displayNumber);
-
 }
 
-void setDigits(EmbeddedCli *cli, char *args, void *context){
-    const char *displayNumberStr = embeddedCliGetToken(args, 1);
-    const char *onOffStr = embeddedCliGetToken(args, 2);
-    const char *null_check = embeddedCliGetToken(args, 3);
+void setDigits(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* displayNumberStr = embeddedCliGetToken(args, 1);
+    const char* onOffStr = embeddedCliGetToken(args, 2);
+    const char* null_check = embeddedCliGetToken(args, 3);
 
-    if (displayNumberStr == NULL || onOffStr == NULL || null_check != NULL) {
+    if (displayNumberStr == NULL || onOffStr == NULL || null_check != NULL)
+    {
         cli_printf("usage: dig [disp-number(1-4)] [0-99/off/on]");
         return;
     }
     uint8_t displayNumber = (uint8_t)atoi(displayNumberStr);
 
-    if (strcasecmp(onOffStr, "off") == 0){
+    if (strcasecmp(onOffStr, "off") == 0)
+    {
         cli_printf("Turning all digits off.");
-        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
+        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++)
+        {
             TLC59116_TurnOffAllLEDs(displayNumber);
         }
         return;
-    }else if(strcasecmp(onOffStr, "on") == 0){
+    }
+    else if (strcasecmp(onOffStr, "on") == 0)
+    {
         cli_printf("Turning all digits on.");
-        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
+        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++)
+        {
             TLC59116_TurnOnAllLEDs(displayNumber, 0);
         }
         return;
@@ -159,34 +189,40 @@ void setDigits(EmbeddedCli *cli, char *args, void *context){
 
     uint8_t digit_to_display = (uint8_t)atoi(onOffStr);
     int did_display = SegmentDisp_DisplayNumber(digit_to_display, displayNumber);
-    if (did_display == 0){
+    if (did_display == 0)
+    {
         cli_printf("Set the digits: %d", digit_to_display);
     }
 }
 
-void setCountdown(EmbeddedCli *cli, char *args, void *context){
-    const char *displayNumberStr = embeddedCliGetToken(args, 1);
-    const char *onOffStr = embeddedCliGetToken(args, 2);
-    const char *null_check = embeddedCliGetToken(args, 3);
-    if (displayNumberStr == NULL || onOffStr == NULL || null_check != NULL) {
+void setCountdown(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* displayNumberStr = embeddedCliGetToken(args, 1);
+    const char* onOffStr = embeddedCliGetToken(args, 2);
+    const char* null_check = embeddedCliGetToken(args, 3);
+    if (displayNumberStr == NULL || onOffStr == NULL || null_check != NULL)
+    {
         cli_printf("usage: cnt [disp-number(1-4)] [0-99/off]");
         return;
     }
     uint8_t displayNumber = (uint8_t)atoi(displayNumberStr);
 
-    if (strcasecmp(onOffStr, "off") == 0){
+    if (strcasecmp(onOffStr, "off") == 0)
+    {
         cli_printf("Turning all digits off and stopping count-down.");
         SegmentDisp_SetCountdown(0, displayNumber);
         return;
     }
     uint8_t count_down_amt = (uint8_t)atoi(onOffStr);
     int did_start = SegmentDisp_SetCountdown(count_down_amt, displayNumber);
-    if (did_start == 0){
+    if (did_start == 0)
+    {
         cli_printf("Set count-down timer to start at: %d", count_down_amt);
     }
 }
 
-void getBatteryVoltage(EmbeddedCli *cli, char *args, void *context) {
+void getBatteryVoltage(EmbeddedCli* cli, char* args, void* context)
+{
     float voltage = GetBatteryVoltage();
     int voltage_int = (int)(voltage * 100); // Scale and convert to integer
     int voltage_decimal = voltage_int % 100; // Extract decimal part
@@ -194,127 +230,276 @@ void getBatteryVoltage(EmbeddedCli *cli, char *args, void *context) {
     cli_printf("Voltage: %d.%02dV", voltage_whole, voltage_decimal);
 }
 
-void setAllDisplaysSegments(EmbeddedCli *cli, char *args, void *context)
+void setAllDisplaysSegments(EmbeddedCli* cli, char* args, void* context)
 {
-    const char *onOffStr = embeddedCliGetToken(args, 1);
-    const char *null_check = embeddedCliGetToken(args, 2);
-    if (onOffStr == NULL || null_check != NULL) {
+    const char* onOffStr = embeddedCliGetToken(args, 1);
+    const char* null_check = embeddedCliGetToken(args, 2);
+    if (onOffStr == NULL || null_check != NULL)
+    {
         cli_printf("usage: seg-all [on/off]");
         return;
     }
 
-    if (strcasecmp(onOffStr, "off") == 0){
+    if (strcasecmp(onOffStr, "off") == 0)
+    {
         cli_printf("Turning all segments off.");
-        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
+        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++)
+        {
             TLC59116_TurnOffAllLEDs(displayNumber);
         }
         return;
-    }if (strcasecmp(onOffStr, "on") == 0)
+    }
+    if (strcasecmp(onOffStr, "on") == 0)
     {
         cli_printf("Turning all digits on.");
-        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++) {
+        for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++)
+        {
             TLC59116_TurnOnAllLEDs(displayNumber, 1);
         }
     }
 }
 
+void onSetLedBrightness(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* ledStr = embeddedCliGetToken(args, 1);
+    const char* brightnessStr = embeddedCliGetToken(args, 2);
+    const char* displayStr = embeddedCliGetToken(args, 3);
+    const char* null_check = embeddedCliGetToken(args, 4);
 
-void initCliBinding() {
+    if (ledStr == NULL || brightnessStr == NULL || displayStr == NULL || null_check != NULL)
+    {
+        cli_printf("usage: led-bright [led-num(1-16)] [brightness(0-255)] [disp-number(1-4)]");
+        return;
+    }
+
+    uint8_t led = (uint8_t)atoi(ledStr);
+    uint8_t brightness = (uint8_t)atoi(brightnessStr);
+    uint8_t display = (uint8_t)atoi(displayStr);
+
+    TLC59116_SetBrightness(led, brightness, display, 1);
+    cli_printf("Set LED %d on display %d to brightness %d", led, display, brightness);
+}
+
+
+void onSetAllBrightness(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* brightnessStr = embeddedCliGetToken(args, 1);
+    const char* null_check = embeddedCliGetToken(args, 2);
+
+    if (brightnessStr == NULL || null_check != NULL)
+    {
+        cli_printf("usage: led-bright-all [brightness]");
+        return;
+    }
+
+    uint8_t brightness = (uint8_t)atoi(brightnessStr);
+
+    // Apply brightness to all 16 LEDs on all displays
+
+    for (uint8_t displayNumber = 1; displayNumber <= 4; displayNumber++)
+    {
+        for (int i = 1; i <= 16; i++)
+        {
+
+            TLC59116_SetBrightness(i, brightness, displayNumber, 1);
+        }
+    }
+
+
+    cli_printf("Set brightness %d for all 16 LEDs on all displays", brightness);
+}
+
+void onSetGlobalBrightness(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* brightnessStr = embeddedCliGetToken(args, 1);
+    const char* displayStr = embeddedCliGetToken(args, 2);
+    const char* null_check = embeddedCliGetToken(args, 3);
+
+    if (brightnessStr == NULL || displayStr == NULL || null_check != NULL)
+    {
+        cli_printf("usage: led-bright-global [brightness(0-255)] [disp-number(1-4)]");
+        return;
+    }
+
+    uint8_t brightness = (uint8_t)atoi(brightnessStr);
+    uint8_t display = (uint8_t)atoi(displayStr);
+
+    TLC59116_SetGlobalBrightness(brightness, display);
+    cli_printf("Set global brightness for display %d to %d", display, brightness);
+}
+
+
+void onSetAllMode(EmbeddedCli* cli, char* args, void* context)
+{
+    const char* modeStr = embeddedCliGetToken(args, 1);
+    const char* displayStr = embeddedCliGetToken(args, 2);
+    const char* null_check = embeddedCliGetToken(args, 3);
+
+    if (modeStr == NULL || displayStr == NULL || null_check != NULL)
+    {
+        cli_printf("usage: led-mode-all [off/full/pwm/group] [disp-number(1-4)]");
+        return;
+    }
+
+    uint8_t display = (uint8_t)atoi(displayStr);
+    LEDControl mode;
+
+    if (strcasecmp(modeStr, "off") == 0)
+    {
+        mode = LED_OFF;
+    }
+    else if (strcasecmp(modeStr, "full") == 0)
+    {
+        mode = LED_FULL_ON;
+    }
+    else if (strcasecmp(modeStr, "pwm") == 0)
+    {
+        mode = LED_PWM_CONTROL;
+    }
+    else if (strcasecmp(modeStr, "group") == 0)
+    {
+        mode = LED_PWM_GROUP;
+    }
+    else
+    {
+        cli_printf("Invalid mode. Use: off | full | pwm | group");
+        return;
+    }
+
+    TLC59116_SetAllToMode(mode, display);
+    cli_printf("Set all LEDs on display %d to mode %s", display, modeStr);
+}
+
+
+void initCliBinding()
+{
     // Define bindings as local variables, so we don't waste static memory
 
     // Command binding for the clear command
     CliCommandBinding clear_binding = {
-            .name = "clear",
-            .help = "Clears the console",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = onClearCLI
+        .name = "clear",
+        .help = "Clears the console",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onClearCLI
     };
 
     // Command binding for the get led command
     CliCommandBinding get_led_binding = {
-            .name = "get-onboard-led",
-            .help = "Get LEDs on the PCB status",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = onGetLed
+        .name = "get-onboard-led",
+        .help = "Get LEDs on the PCB status",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onGetLed
     };
 
     // Command binding for the set led command
     CliCommandBinding set_onboard_led_binding = {
-            .name = "set-onboard-led",
-            .help = "Set LEDs on the PCB on/off",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = onSetLed
+        .name = "set-onboard-led",
+        .help = "Set LEDs on the PCB on/off",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onSetLed
     };
 
     CliCommandBinding set_buzzer_binding = {
-            .name = "buzzer",
-            .help = "Set buzzer on/off",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = onBuzzer
+        .name = "buzzer",
+        .help = "Set buzzer on/off",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onBuzzer
     };
 
     CliCommandBinding set_i2c_binding = {
-            .name = "i2c-set",
-            .help = "Write an i2c register @ 0x61 (hex unit)",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = onI2CSetReg
+        .name = "i2c-set",
+        .help = "Write an i2c register @ 0x61 (hex unit)",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onI2CSetReg
     };
 
     CliCommandBinding get_i2c_binding = {
-            .name = "i2c-get",
-            .help = "Read an i2c register @ 0x61 (hex unit)",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = onI2CGetReg
+        .name = "i2c-get",
+        .help = "Read an i2c register @ 0x61 (hex unit)",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onI2CGetReg
     };
 
     CliCommandBinding set_segment_binding = {
-            .name = "seg",
-            .help = "Enable a single segment 0-16",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = setSegment
+        .name = "seg",
+        .help = "Enable a single segment 0-16",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = setSegment
     };
 
     CliCommandBinding set_digits_binding = {
-            .name = "dig",
-            .help = "Sets digits between 0-99 or off",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = setDigits
+        .name = "dig",
+        .help = "Sets digits between 0-99 or off",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = setDigits
     };
 
     CliCommandBinding set_countdown_binding = {
-            .name = "cnt",
-            .help = "Sets count-down between 0-99 seconds or off",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = setCountdown
+        .name = "cnt",
+        .help = "Sets count-down between 0-99 seconds or off",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = setCountdown
     };
 
     CliCommandBinding get_battvolt_binding = {
-            .name = "batt",
-            .help = "Gets the battery voltage from ADC",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = getBatteryVoltage
+        .name = "batt",
+        .help = "Gets the battery voltage from ADC",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = getBatteryVoltage
     };
 
     CliCommandBinding set_all_segments_binding = {
-            .name = "seg-all",
-            .help = "Sets all the segments on/off on all displays",
-            .tokenizeArgs = true,
-            .context = NULL,
-            .binding = setAllDisplaysSegments
+        .name = "seg-all",
+        .help = "Sets all the segments on/off on all displays",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = setAllDisplaysSegments
+    };
+
+    CliCommandBinding set_led_brightness_binding = {
+        .name = "led-bright",
+        .help = "Set brightness of a single LED: led-bright [led-num(1-16)] [0-255] [disp-number(1-4)]",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onSetLedBrightness
+    };
+
+    CliCommandBinding set_all_brightness_binding = {
+        .name = "led-bright-all",
+        .help = "Set brightness of all 16 LEDs: led-bright-all [disp-number(1-4)] <16 values>",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onSetAllBrightness
+    };
+
+    CliCommandBinding set_global_brightness_binding = {
+        .name = "led-bright-global",
+        .help = "Set global brightness: led-bright-global [0-255] [disp-number(1-4)]",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onSetGlobalBrightness
+    };
+
+    CliCommandBinding set_all_mode_binding = {
+        .name = "led-mode-all",
+        .help = "Set mode of all LEDs: led-mode-all [off/full/pwm/group] [disp-number(1-4)]",
+        .tokenizeArgs = true,
+        .context = NULL,
+        .binding = onSetAllMode
     };
 
 
-    EmbeddedCli *cli = getCliPointer();
+    EmbeddedCli* cli = getCliPointer();
     embeddedCliAddBinding(cli, clear_binding);
     embeddedCliAddBinding(cli, get_led_binding);
     embeddedCliAddBinding(cli, set_onboard_led_binding);
@@ -326,4 +511,8 @@ void initCliBinding() {
     embeddedCliAddBinding(cli, set_countdown_binding);
     embeddedCliAddBinding(cli, get_battvolt_binding);
     embeddedCliAddBinding(cli, set_all_segments_binding);
+    embeddedCliAddBinding(cli, set_led_brightness_binding);
+    embeddedCliAddBinding(cli, set_all_brightness_binding);
+    embeddedCliAddBinding(cli, set_global_brightness_binding);
+    embeddedCliAddBinding(cli, set_all_mode_binding);
 }

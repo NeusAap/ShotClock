@@ -174,6 +174,77 @@ void TLC59116_TurnOnAllLEDs(uint8_t displayNumber, uint8_t excludeDot) {
     }
 }
 
+// Set brightness of a single LED (0–255)
+void TLC59116_SetBrightness(uint8_t ledNumber, uint8_t brightness, uint8_t displayNumber, uint8_t excludeDot) {
+    if (ledNumber < 1 || ledNumber > 16) {
+        cli_printf("LED number out of range (1–16)\n");
+        return;
+    }
+    if (excludeDot && (ledNumber == 8 || ledNumber == 16 ))
+    {
+        return;
+    }
+    // Put LED in PWM control mode
+    LEDControlParams params = {
+        .ledNumber = ledNumber,
+        .controlValue = LED_PWM_CONTROL
+    };
+    TLC59116_SetLED(params, displayNumber);
+
+    // Map LED number to PWM register
+    uint8_t pwmReg = TLC59116_PWM0_ADDR + (ledNumber - 1);
+
+    // Write brightness
+    TLC59116_WriteReg(pwmReg, brightness, displayNumber);
+}
+
+// Set brightness of all 16 LEDs in one I²C transfer
+void TLC59116_SetAllBrightness(uint8_t *values, uint8_t displayNumber) {
+    if (values == NULL) {
+        Error_Handler(); // invalid input
+    }
+
+    uint8_t buffer[17];
+    buffer[0] = TLC59116_PWM0_AUTOINCR; // start at PWM0 with auto-increment
+    for (int i = 0; i < 16; i++) {
+        buffer[i + 1] = values[i]; // copy brightness values
+    }
+
+    TLC59116_WriteStream(sizeof(buffer), buffer, displayNumber);
+
+    // Ensure all LEDs are in PWM mode
+    for (int i = 1; i <= 16; i++) {
+        LEDControlParams params = { .ledNumber = i, .controlValue = LED_PWM_CONTROL };
+        TLC59116_SetLED(params, displayNumber);
+    }
+}
+
+
+// Set global brightness scaling (0–255)
+// All LEDs must be set to LED_PWM_GROUP mode for this to take effect
+void TLC59116_SetGlobalBrightness(uint8_t brightness, uint8_t displayNumber) {
+    TLC59116_WriteReg(TLC59116_GRPPWM_ADDR, brightness, displayNumber);
+}
+
+
+// Set all LEDs (1–16) on a display to the same mode
+void TLC59116_SetAllToMode(LEDControl mode, uint8_t displayNumber) {
+    if (mode > LED_PWM_GROUP) {
+        cli_printf("Invalid LED mode\n");
+        return;
+    }
+
+    // Each LEDOUTx register controls 4 LEDs (2 bits per LED)
+    // So we need to write 4 registers (LEDOUT0..LEDOUT3)
+    uint8_t value = 0;
+    for (int i = 0; i < 4; i++) {
+        value |= (mode & 0x03) << (i * 2);
+    }
+
+    for (int reg = TLC59116_LEDOUT0_ADDR; reg <= TLC59116_LEDOUT3_ADDR; reg++) {
+        TLC59116_WriteReg(reg, value, displayNumber);
+    }
+}
 
 void TLC59116_Sleep(void)
 {
